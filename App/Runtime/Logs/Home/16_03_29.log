@@ -1,0 +1,202 @@
+[ 2016-03-29T13:25:03+08:00 ] ::1 /yibo/index.php/Home/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001750s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.027012s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0282s ]
+SQL: SELECT * FROM `admin` WHERE ( login='1' ) LIMIT 1   [ RunTime:0.0019s ]
+
+[ 2016-03-29T13:25:11+08:00 ] ::1 /yibo/index.php/Home/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001515s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002676s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0360s ]
+SQL: SELECT * FROM `admin` WHERE ( login='1' ) LIMIT 1   [ RunTime:0.0008s ]
+
+[ 2016-03-29T13:28:34+08:00 ] ::1 /yibo/index.php/Home/Index/conaddto
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001871s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003240s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0110s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\phpstudy\WWW\yibo\App\Home\Controller\IndexController.class.php 第 250 行.
+SQL: SELECT * FROM `admin` LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `record` [ RunTime:0.0119s ]
+SQL: INSERT INTO `record` (`conid`,`conname`,`mac`,`conpos`,`put`,`type`,`account`,`out1`,`give`,`turn`,`coturn`,`waitid`,`wainame`,`time`,`judge`) VALUES ('2','客户2','1','1','5000','现金','','','','','','2','管理员','2016-03-29 13:28:34','1') [ RunTime:0.0017s ]
+
+[ 2016-03-29T13:28:53+08:00 ] ::1 /yibo/index.php/Home/Index/conaddto
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001296s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002299s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0145s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\phpstudy\WWW\yibo\App\Home\Controller\IndexController.class.php 第 250 行.
+SQL: SELECT * FROM `admin` LIMIT 1   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `record` [ RunTime:0.0127s ]
+SQL: INSERT INTO `record` (`conid`,`conname`,`mac`,`conpos`,`put`,`type`,`account`,`out1`,`give`,`turn`,`coturn`,`waitid`,`wainame`,`time`,`judge`) VALUES ('3','客户3','1','1','8000','现金','','','','','','2','管理员','2016-03-29 13:28:53','1') [ RunTime:0.0013s ]
+
+[ 2016-03-29T13:31:48+08:00 ] ::1 /yibo/index.php/Home/Index/conaddto
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001290s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002225s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0112s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\phpstudy\WWW\yibo\App\Home\Controller\IndexController.class.php 第 250 行.
+SQL: SELECT * FROM `admin` LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `record` [ RunTime:0.0113s ]
+SQL: INSERT INTO `record` (`conid`,`conname`,`mac`,`conpos`,`put`,`type`,`account`,`out1`,`give`,`turn`,`coturn`,`waitid`,`wainame`,`time`,`judge`) VALUES ('5','客户5','1','1','400','现金','','','','','','2','管理员','2016-03-29 13:31:48','1') [ RunTime:0.0011s ]
+
+[ 2016-03-29T13:40:59+08:00 ] ::1 /yibo/index.php/Home/Index/conadd
+ERR: 1111:Invalid use of group function
+ [ SQL语句 ] : SELECT * FROM `record` WHERE ( conid='value' and MAX(time) ) 
+
+[ 2016-03-29T13:41:23+08:00 ] ::1 /yibo/index.php/Home/Index/conadd
+ERR: 1111:Invalid use of group function
+ [ SQL语句 ] : SELECT * FROM `record` WHERE ( conid='value' and Max(time) ) 
+
+[ 2016-03-29T13:57:26+08:00 ] ::1 /yibo/index.php/Home/Index/conaddto
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001663s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003058s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0145s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\phpstudy\WWW\yibo\App\Home\Controller\IndexController.class.php 第 252 行.
+SQL: SELECT * FROM `admin` LIMIT 1   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `record` [ RunTime:0.0120s ]
+SQL: INSERT INTO `record` (`conid`,`conname`,`mac`,`conpos`,`put`,`type`,`account`,`out1`,`give`,`turn`,`coturn`,`waitid`,`wainame`,`time`,`judge`) VALUES ('2','客户2','3','5','','现金','','','','','','2','管理员','2016-03-29 13:57:26','1') [ RunTime:0.0013s ]
+
+[ 2016-03-29T14:01:07+08:00 ] ::1 /yibo/index.php/Home/Index/conaddto
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002157s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004099s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0114s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\phpstudy\WWW\yibo\App\Home\Controller\IndexController.class.php 第 252 行.
+SQL: SELECT * FROM `admin` LIMIT 1   [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `record` [ RunTime:0.0144s ]
+SQL: INSERT INTO `record` (`conid`,`conname`,`mac`,`conpos`,`put`,`type`,`account`,`out1`,`give`,`turn`,`coturn`,`waitid`,`wainame`,`time`,`judge`) VALUES ('2','客户2','3','5','','现金','','600','','','','2','管理员','2016-03-29 14:01:07','1') [ RunTime:0.0011s ]
+
+[ 2016-03-29T14:10:13+08:00 ] ::1 /yibo/index.php/Home/Index/conaddto
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001676s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002862s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0144s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\phpstudy\WWW\yibo\App\Home\Controller\IndexController.class.php 第 252 行.
+SQL: SELECT * FROM `admin` LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `record` [ RunTime:0.0121s ]
+SQL: INSERT INTO `record` (`conid`,`conname`,`mac`,`conpos`,`put`,`type`,`account`,`out1`,`give`,`turn`,`coturn`,`waitid`,`wainame`,`time`,`judge`) VALUES ('1','客户一','6','6','','现金','','','','','','2','管理员','2016-03-29 14:10:13','1') [ RunTime:0.0010s ]
+
+[ 2016-03-29T14:11:02+08:00 ] ::1 /yibo/index.php/Home/Pc/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001708s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002836s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0322s ]
+SQL: SELECT * FROM `admin` WHERE ( login='admin' ) LIMIT 1   [ RunTime:0.0011s ]
+
+[ 2016-03-29T14:11:53+08:00 ] ::1 /yibo/index.php/Home/Pc/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001288s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002288s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0114s ]
+SQL: SELECT * FROM `admin` WHERE ( login='11' ) LIMIT 1   [ RunTime:0.0009s ]
+SQL: INSERT INTO `admin` (`level`,`login`,`name`,`password`) VALUES ('1','11','主管1号','e10adc3949ba59abbe56e057f20f883e') [ RunTime:0.0010s ]
+
+[ 2016-03-29T14:12:17+08:00 ] ::1 /yibo/index.php/Home/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001372s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002590s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0147s ]
+SQL: SELECT * FROM `admin` WHERE ( login='11' ) LIMIT 1   [ RunTime:0.0011s ]
+
+[ 2016-03-29T14:12:43+08:00 ] ::1 /yibo/index.php/Home/Pc/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004003s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005571s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0146s ]
+SQL: SELECT * FROM `admin` WHERE ( login='admin' ) LIMIT 1   [ RunTime:0.0008s ]
+
+[ 2016-03-29T19:12:22+08:00 ] ::1 /yibo/index.php/Home/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001785s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003041s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0760s ]
+SQL: SELECT * FROM `admin` WHERE ( login='1' ) LIMIT 1   [ RunTime:0.0011s ]
+
+[ 2016-03-29T19:12:41+08:00 ] ::1 /yibo/index.php/Home/Index/conaddto
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001833s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002925s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0131s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\phpstudy\WWW\yibo\App\Home\Controller\IndexController.class.php 第 252 行.
+SQL: SELECT * FROM `admin` LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `record` [ RunTime:0.0137s ]
+SQL: INSERT INTO `record` (`conid`,`conname`,`mac`,`conpos`,`put`,`type`,`account`,`out1`,`give`,`turn`,`coturn`,`waitid`,`wainame`,`time`,`judge`) VALUES ('2','客户2','3','5','','现金','','','555','','','2','管理员','2016-03-29 19:12:41','2') [ RunTime:0.0015s ]
+
+[ 2016-03-29T19:12:55+08:00 ] ::1 /yibo/index.php/Home/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002019s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003486s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0102s ]
+SQL: SELECT * FROM `admin` WHERE ( login='11' ) LIMIT 1   [ RunTime:0.0008s ]
+
+[ 2016-03-29T19:26:17+08:00 ] ::1 /yibo/index.php/Home/Boss/record
+ERR: 非法操作:record
+
+[ 2016-03-29T19:27:07+08:00 ] ::1 /yibo/index.php/Home/Boss/record
+ERR: 非法操作:record
+
+[ 2016-03-29T19:27:20+08:00 ] ::1 /yibo/index.php/Home/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002006s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003720s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0123s ]
+SQL: SELECT * FROM `admin` WHERE ( login='11' ) LIMIT 1   [ RunTime:0.0011s ]
+
+[ 2016-03-29T19:28:07+08:00 ] ::1 /yibo/index.php/Home/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001652s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002937s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0121s ]
+SQL: SELECT * FROM `admin` WHERE ( login='11' ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-03-29T19:28:13+08:00 ] ::1 /yibo/index.php/Home/Boss/record
+ERR: 非法操作:record
+
+[ 2016-03-29T19:58:09+08:00 ] 192.168.191.2 /yibo/index.php/Home/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001649s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002749s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0135s ]
+SQL: SELECT * FROM `admin` WHERE ( login='11' ) LIMIT 1   [ RunTime:0.0009s ]
+
+[ 2016-03-29T20:57:32+08:00 ] ::1 /yibo/index.php/Home/Pc/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001883s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003342s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0784s ]
+SQL: SELECT * FROM `admin` WHERE ( login='admin' ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-03-29T21:07:49+08:00 ] ::1 /yibo/index.php/Home/Pc/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003427s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005037s ]
+
+[ 2016-03-29T21:07:57+08:00 ] ::1 /yibo/index.php/Home/Pc/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001249s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002137s ]
+
+[ 2016-03-29T21:08:22+08:00 ] ::1 /yibo/index.php/Home/Pc/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001634s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003430s ]
+
+[ 2016-03-29T21:09:13+08:00 ] ::1 /yibo/index.php/Home/Pc/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002076s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003232s ]
+
+[ 2016-03-29T21:10:32+08:00 ] ::1 /yibo/index.php/Home/Pc/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001412s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002591s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0146s ]
+SQL: SELECT * FROM `admin` WHERE ( login='admin' ) LIMIT 1   [ RunTime:0.0008s ]
+
+[ 2016-03-29T21:15:12+08:00 ] ::1 /yibo/index.php/Home/Pc/mac
+ERR: 非法操作:mac
+

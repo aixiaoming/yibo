@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>权限设置</title>
+    <style>
+        .check{width: 40%!important;float: left;padding-left: 30px;margin-top: 20px;text-align:center;}
+    </style>
+</head>
+<body>
+<include file="Public/head" />
+<include file="Public/header" />
+
+<form method="post" action="__CONTROLLER__/rolesubmit" enctype="multipart/form-data">
+    <h4 style="margin-left:30px;">{$waiter1.name}权限设置</h4>
+    <h6 style="margin-left:30px;">目前可以操作的机器:{$waiter}</h6>
+    <input type="hidden" value="{$waiterid.id}" name="waiterid">
+
+        <volist name="conmac" id="vo1">
+            <div  class="check">
+            <label class="radio-inline">
+                <input  type="checkbox"  value="{$vo1.id}" name="mac[]"> {$vo1.mac}
+            </label>
+            </div>
+        </volist><br>
+    <!--<php>$id=$vo1["id"];if(in_array("$id", $waiter)){echo "checked";}</php>-->
+    <input type="submit" class="btn btn-info" value="提　　　交" style="width: 80%;margin-top: 30px;margin-left: 10%;">
+</form>
+
+</body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="Content-Language" content="zh-CN">
+<title>跳转提示</title>
+<style type="text/css">
+    body {text-align:center;font-family:宋体,serif;background:#ffffff!important;font-size:12px;width: 100%;}
+    .logo{float:left;}
+    .clearfix{width: 80%;background-color: #fff;box-shadow: rgb(144, 144, 144) 2px 2px 5px 2px;border-radius: 4px;margin: auto;margin-top: 50px;}
+    h3{margin-top:0px!important; }
+    h4{margin-top: 20px!important;margin-bottom: 30px!important;}
+</style>
+</head>
+<body>
+<include file="Public/head" />
+<include file="Public/header" />
+<div class="area clearfix">
+     <?php if(isset($message)) {?>
+   <img src="__ROOT__/App/Public/Img/success.png"  width="160" height="160" class="tips">
+              <h3><?php echo($message); ?></h3>
+    <?php }else{?>
+   <img src="__ROOT__/App/Public/Img/error.png"  width="160" height="160" class="tips">
+             <h3><?php echo($error); ?></h3>
+    <?php }?>
+
+    <h4>页面自动 <a id="href" href="<?php echo($jumpUrl); ?>">跳转</a> 等待时间： <b id="wait"><?php echo($waitSecond); ?></b></h4>
+</div>
+<script type="text/javascript">
+(function(){
+var wait = document.getElementById('wait'),href = document.getElementById('href').href;
+var interval = setInterval(function(){
+	var time = --wait.innerHTML;
+	if(time <= 0) {
+		location.href = href;
+		clearInterval(interval);
+	};
+}, 1000);
+})();
+</script>
+</body>
+</html>

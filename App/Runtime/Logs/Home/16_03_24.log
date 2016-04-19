@@ -1,0 +1,81 @@
+[ 2016-03-24T22:03:59+08:00 ] 172.16.34.49 /kaili/index.php/Home/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001615s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002688s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0782s ]
+SQL: SELECT * FROM `admin` WHERE ( login='fuwu1' ) LIMIT 1   [ RunTime:0.0016s ]
+
+[ 2016-03-24T22:05:01+08:00 ] 172.16.34.49 /kaili/index.php/Home/Index/conlogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001639s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002674s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0106s ]
+SQL: SELECT * FROM `user` WHERE ( userphone='18437955601' ) LIMIT 1   [ RunTime:0.0009s ]
+
+[ 2016-03-24T22:05:14+08:00 ] 172.16.34.49 /kaili/index.php/Home/Index/conlogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001253s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002162s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0098s ]
+SQL: SELECT * FROM `user` WHERE ( userphone='18437955601' ) LIMIT 1   [ RunTime:0.0008s ]
+
+[ 2016-03-24T22:06:24+08:00 ] 172.16.34.49 /kaili/index.php/Home/Index/conaddto
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002647s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0136s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\phpstudy\WWW\kaili\App\Home\Controller\IndexController.class.php 第 163 行.
+SQL: SELECT * FROM `admin` LIMIT 1   [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `record` [ RunTime:0.0122s ]
+SQL: INSERT INTO `record` (`conid`,`conname`,`mac`,`conpos`,`put`,`type`,`account`,`out`,`give`,`turn`,`coturn`,`waitid`,`wainame`,`time`,`judge`) VALUES ('1','赵晓明','2','6','6000','现金','','6883','','','','1','服务员1','2016-03-24 22:06:24','1') [ RunTime:0.0015s ]
+
+[ 2016-03-24T22:07:13+08:00 ] 172.16.34.49 /kaili/index.php/Home/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001790s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002989s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0108s ]
+SQL: SELECT * FROM `admin` WHERE ( login='zhuguan1' ) LIMIT 1   [ RunTime:0.0009s ]
+
+[ 2016-03-24T22:08:32+08:00 ] ::1 /kaili/index.php/Home/Pc/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001291s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002283s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0104s ]
+SQL: SELECT * FROM `admin` WHERE ( login='admin' ) LIMIT 1   [ RunTime:0.0008s ]
+
+[ 2016-03-24T22:11:08+08:00 ] 172.16.34.49 /kaili/index.php/Home/Index/conreg
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001585s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002590s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0105s ]
+SQL: SELECT * FROM `user` WHERE ( userphone='15238309817' ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: INSERT INTO `user` (`userphone`,`name`) VALUES ('15238309817','朱科目') [ RunTime:0.0006s ]
+
+[ 2016-03-24T22:11:57+08:00 ] ::1 /kaili/index.php/Home/Pc/update
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001314s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002245s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0118s ]
+SQL: UPDATE `admin` SET `password`='25d55ad283aa400af464c76d713c07ad' WHERE ( id='2' ) [ RunTime:0.0013s ]
+
+[ 2016-03-24T22:12:36+08:00 ] 172.16.34.49 /kaili/index.php/Home/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001400s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002383s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0702s ]
+SQL: SELECT * FROM `admin` WHERE ( login='zhuguan1' ) LIMIT 1   [ RunTime:0.0009s ]
+
+[ 2016-03-24T22:12:44+08:00 ] 172.16.34.49 /kaili/index.php/Home/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001211s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002054s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0284s ]
+SQL: SELECT * FROM `admin` WHERE ( login='zhuguan1' ) LIMIT 1   [ RunTime:0.0008s ]
+
+[ 2016-03-24T22:32:12+08:00 ] 172.16.34.49 /kaili/index.php/Home/Index/conlogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001966s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003461s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0103s ]
+SQL: SELECT * FROM `user` WHERE ( userphone='15238309818' ) LIMIT 1   [ RunTime:0.0008s ]
+

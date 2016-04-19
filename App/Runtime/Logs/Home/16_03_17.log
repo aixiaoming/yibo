@@ -1,0 +1,461 @@
+[ 2016-03-17T00:00:09+08:00 ] ::1 /kaili/index.php/Home/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001305s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002322s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.1479s ]
+SQL: SELECT * FROM `admin` WHERE ( login='root' ) LIMIT 1   [ RunTime:0.0013s ]
+
+[ 2016-03-17T00:00:18+08:00 ] ::1 /kaili/index.php/Home/Index/conlogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001372s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002400s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0106s ]
+SQL: SELECT * FROM `user` WHERE ( userphone='1049370257' ) LIMIT 1   [ RunTime:0.0009s ]
+
+[ 2016-03-17T12:45:01+08:00 ] ::1 /kaili/index.php/Home/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002093s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.043941s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0717s ]
+SQL: SELECT * FROM `admin` WHERE ( login='root' ) LIMIT 1   [ RunTime:0.0009s ]
+
+[ 2016-03-17T12:45:20+08:00 ] ::1 /kaili/index.php/Home/Index/U('Index/waiter')/
+ERR: 非法操作:U('Index
+
+[ 2016-03-17T12:46:14+08:00 ] ::1 /kaili/index.php/Home/Index/U('Index/waiter')/
+ERR: 非法操作:U('Index
+
+[ 2016-03-17T12:46:34+08:00 ] ::1 /kaili/index.php/Home/Index/U('Index/conlogin')/
+ERR: 非法操作:U('Index
+
+[ 2016-03-17T12:48:08+08:00 ] ::1 /kaili/index.php/Home/Index/U('Index/conlogin')/
+ERR: 非法操作:U('Index
+
+[ 2016-03-17T13:19:04+08:00 ] ::1 /kaili/index.php/Home/Index/conadd.html
+ERR: 模板不存在:./App/Home/View//Home/View/Public/dispatch_jump.html
+
+[ 2016-03-17T13:26:15+08:00 ] ::1 /kaili/index.php/Home/Index/conlogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001852s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003090s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0173s ]
+SQL: SELECT * FROM `user` WHERE ( userphone='1049370257' ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-03-17T13:30:10+08:00 ] ::1 /kaili/index.php/Home/Index/conaddto
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004177s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009016s ]
+
+[ 2016-03-17T13:31:14+08:00 ] ::1 /kaili/index.php/Home/Index/conaddto
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001215s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002102s ]
+
+[ 2016-03-17T13:31:35+08:00 ] ::1 /kaili/index.php/Home/Index/conaddto
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001720s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003025s ]
+
+[ 2016-03-17T13:32:32+08:00 ] ::1 /kaili/index.php/Home/Index/conaddto
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001315s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002387s ]
+
+[ 2016-03-17T13:34:02+08:00 ] ::1 /kaili/index.php/Home/Index/conaddto
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001376s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002351s ]
+
+[ 2016-03-17T13:34:07+08:00 ] ::1 /kaili/index.php/Home/Index/conaddto
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001536s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002680s ]
+
+[ 2016-03-17T13:35:34+08:00 ] ::1 /kaili/index.php/Home/Index/conaddto
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001301s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002267s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001519s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001738s ]
+
+[ 2016-03-17T13:35:40+08:00 ] ::1 /kaili/index.php/Home/Index/conaddto
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001432s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002443s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001361s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001561s ]
+
+[ 2016-03-17T13:35:48+08:00 ] ::1 /kaili/index.php/Home/Index/conaddto
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001734s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002854s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001630s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001826s ]
+
+[ 2016-03-17T13:37:30+08:00 ] ::1 /kaili/index.php/Home/Index/conaddto
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001498s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002747s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001754s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001996s ]
+
+[ 2016-03-17T13:52:05+08:00 ] ::1 /kaili/index.php/Home/Index/conaddto
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002554s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004609s ]
+SQL: SHOW COLUMNS FROM `record` [ RunTime:0.0128s ]
+SQL: INSERT INTO `record` (`conid`,`mac`,`conpos`,`put`,`type`,`account`,`out`,`give`,`turn`,`coturn`,`waitid`,`time`) VALUES ('$conuser[\'id\']','1','1','500','现金','','','1','','','1','1458193924') [ RunTime:0.0019s ]
+
+[ 2016-03-17T14:00:12+08:00 ] ::1 /kaili/index.php/Home/Index/conlogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005040s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006716s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0126s ]
+SQL: SELECT * FROM `user` WHERE ( userphone='1049370257' ) LIMIT 1   [ RunTime:0.0009s ]
+
+[ 2016-03-17T14:00:21+08:00 ] ::1 /kaili/index.php/Home/Index/conaddto
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001295s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002315s ]
+
+[ 2016-03-17T14:00:49+08:00 ] ::1 /kaili/index.php/Home/Index/conaddto
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001796s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003081s ]
+
+[ 2016-03-17T14:01:47+08:00 ] ::1 /kaili/index.php/Home/Index/conaddto
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003370s ]
+
+[ 2016-03-17T14:02:33+08:00 ] ::1 /kaili/index.php/Home/Index/conaddto
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001249s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002190s ]
+NOTIC: [2] date() expects at least 1 parameter, 0 given E:\phpstudy\WWW\kaili\App\Home\Controller\IndexController.class.php 第 153 行.
+
+[ 2016-03-17T14:04:10+08:00 ] ::1 /kaili/index.php/Home/Index/conaddto
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001680s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002728s ]
+
+[ 2016-03-17T14:04:37+08:00 ] 192.168.23.2 /kaili/index.php/Home/Index/conlogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001290s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002232s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0113s ]
+SQL: SELECT * FROM `user` WHERE ( userphone='1049370257' ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-03-17T14:04:54+08:00 ] 192.168.23.2 /kaili/index.php/Home/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001585s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002580s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `admin` WHERE ( login='root' ) LIMIT 1   [ RunTime:0.0008s ]
+
+[ 2016-03-17T14:05:03+08:00 ] 192.168.23.2 /kaili/index.php/Home/Index/conlogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001206s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002065s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `user` WHERE ( userphone='1049370257' ) LIMIT 1   [ RunTime:0.0009s ]
+
+[ 2016-03-17T14:06:16+08:00 ] ::1 /kaili/index.php/Home/Index/conaddto
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003395s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004581s ]
+SQL: SHOW COLUMNS FROM `record` [ RunTime:0.0114s ]
+SQL: INSERT INTO `record` (`conid`,`mac`,`conpos`,`put`,`type`,`account`,`out`,`give`,`turn`,`coturn`,`waitid`,`time`) VALUES ('3','3','4','1000','网银','李先生','20','2','','','1','2016-03-17 14:06:15') [ RunTime:0.0009s ]
+
+[ 2016-03-17T14:10:01+08:00 ] ::1 /kaili/index.php/Home/Index/conlogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007808s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009122s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0108s ]
+SQL: SELECT * FROM `user` WHERE ( userphone='1049370257' ) LIMIT 1   [ RunTime:0.0008s ]
+
+[ 2016-03-17T14:10:05+08:00 ] ::1 /kaili/index.php/Home/Index/conaddto
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001315s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002382s ]
+
+[ 2016-03-17T14:10:20+08:00 ] ::1 /kaili/index.php/Home/Index/conaddto
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001268s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002271s ]
+SQL: SHOW COLUMNS FROM `record` [ RunTime:0.0150s ]
+SQL: INSERT INTO `record` (`conid`,`mac`,`conpos`,`put`,`type`,`account`,`out`,`give`,`turn`,`coturn`,`waitid`,`time`,`if`) VALUES ('3','1','1','','现金','','','','','','1','2016-03-17 14:10:19','1') [ RunTime:0.0009s ]
+
+[ 2016-03-17T14:10:31+08:00 ] ::1 /kaili/index.php/Home/Index/conaddto
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001355s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002407s ]
+SQL: SHOW COLUMNS FROM `record` [ RunTime:0.0152s ]
+SQL: INSERT INTO `record` (`conid`,`mac`,`conpos`,`put`,`type`,`account`,`out`,`give`,`turn`,`coturn`,`waitid`,`time`,`if`) VALUES ('3','1','1','','现金','','','','','','1','2016-03-17 14:10:30','1') [ RunTime:0.0009s ]
+
+[ 2016-03-17T14:11:01+08:00 ] ::1 /kaili/index.php/Home/Index/conaddto
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001924s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003131s ]
+SQL: SHOW COLUMNS FROM `record` [ RunTime:0.0117s ]
+SQL: INSERT INTO `record` (`conid`,`mac`,`conpos`,`put`,`type`,`account`,`out`,`give`,`turn`,`coturn`,`waitid`,`time`,`if`) VALUES ('3','1','1','','现金','','','','','','1','2016-03-17 14:11:00','1') [ RunTime:0.0009s ]
+
+[ 2016-03-17T14:13:53+08:00 ] ::1 /kaili/index.php/Home/Index/conaddto
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001255s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002204s ]
+SQL: SHOW COLUMNS FROM `record` [ RunTime:0.0130s ]
+SQL: INSERT INTO `record` (`conid`,`mac`,`conpos`,`put`,`type`,`account`,`out`,`give`,`turn`,`coturn`,`waitid`,`time`,`if`) VALUES ('3','1','1','','现金','','','','','','1','2016-03-17 14:13:52','1') [ RunTime:0.0010s ]
+
+[ 2016-03-17T14:14:51+08:00 ] ::1 /kaili/index.php/Home/Index/conlogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001253s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002250s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0104s ]
+SQL: SELECT * FROM `user` WHERE ( userphone='1049370257' ) LIMIT 1   [ RunTime:0.0009s ]
+
+[ 2016-03-17T14:15:12+08:00 ] ::1 /kaili/index.php/Home/Index/conaddto
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001520s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002661s ]
+SQL: SHOW COLUMNS FROM `record` [ RunTime:0.0121s ]
+SQL: INSERT INTO `record` (`conid`,`mac`,`conpos`,`put`,`type`,`account`,`out`,`give`,`turn`,`coturn`,`waitid`,`time`,`if`) VALUES ('3','4','4','2000','现金','','300','200','','','1','2016-03-17 14:15:11','2') [ RunTime:0.0014s ]
+
+[ 2016-03-17T16:15:37+08:00 ] ::1 /kaili/index.php/Home/Index/conlogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002563s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004037s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0164s ]
+SQL: SELECT * FROM `user` WHERE ( userphone='15238309818' ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-03-17T16:15:46+08:00 ] ::1 /kaili/index.php/Home/Index/conaddto
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001432s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002525s ]
+
+[ 2016-03-17T16:20:52+08:00 ] ::1 /kaili/index.php/Home/Index/conaddto
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001806s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003039s ]
+SQL: SHOW COLUMNS FROM `record` [ RunTime:0.0126s ]
+SQL: INSERT INTO `record` (`conid`,`mac`,`conpos`,`put`,`type`,`account`,`out`,`give`,`turn`,`coturn`,`waitid`,`time`,`if`) VALUES ('2','3','4','2000','刷卡','','5000','20','200','','1','2016-03-17 16:20:50','2') [ RunTime:0.0014s ]
+
+[ 2016-03-17T16:37:44+08:00 ] 192.168.23.2 /kaili/index.php/Home/Index/conaddto
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002357s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003604s ]
+
+[ 2016-03-17T16:38:04+08:00 ] 192.168.23.2 /kaili/index.php/Home/Index/conaddto
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001652s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002773s ]
+SQL: SHOW COLUMNS FROM `record` [ RunTime:0.0138s ]
+SQL: INSERT INTO `record` (`conid`,`mac`,`conpos`,`put`,`type`,`account`,`out`,`give`,`turn`,`coturn`,`waitid`,`time`,`if`) VALUES ('3','3','4','1000','网银','赵主管','20','5','','','1','2016-03-17 16:38:03','2') [ RunTime:0.0012s ]
+
+[ 2016-03-17T16:59:02+08:00 ] ::1 /kaili/index.php/Home/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003999s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005460s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0168s ]
+SQL: SELECT * FROM `admin` WHERE ( login='root' ) LIMIT 1   [ RunTime:0.0009s ]
+
+[ 2016-03-17T16:59:02+08:00 ] ::1 /kaili/index.php/Home/Index/undefined
+ERR: 非法操作:undefined
+
+[ 2016-03-17T17:05:21+08:00 ] ::1 /kaili/index.php/Home/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001955s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003255s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0127s ]
+SQL: SELECT * FROM `admin` WHERE ( login='root' ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-03-17T17:07:30+08:00 ] ::1 /kaili/index.php/Home/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002255s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003726s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0540s ]
+SQL: SELECT * FROM `admin` WHERE ( login='root' ) LIMIT 1   [ RunTime:0.0007s ]
+
+[ 2016-03-17T17:08:04+08:00 ] ::1 /kaili/index.php/Home/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001732s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003051s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0129s ]
+SQL: SELECT * FROM `admin` WHERE ( login='root' ) LIMIT 1   [ RunTime:0.0009s ]
+
+[ 2016-03-17T17:23:18+08:00 ] ::1 /kaili/index.php/Home/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001301s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002320s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0160s ]
+SQL: SELECT * FROM `admin` WHERE ( login='zhuguan1' ) LIMIT 1   [ RunTime:0.0009s ]
+
+[ 2016-03-17T17:23:18+08:00 ] ::1 /kaili/index.php/Home/Boss/jump1.html
+ERR: 无法加载控制器:Boss
+
+[ 2016-03-17T17:25:24+08:00 ] ::1 /kaili/index.php/Home/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001267s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002336s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0123s ]
+SQL: SELECT * FROM `admin` WHERE ( login='zhuguan1' ) LIMIT 1   [ RunTime:0.0008s ]
+
+[ 2016-03-17T17:29:28+08:00 ] 192.168.23.2 /kaili/index.php/Home/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001662s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002876s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `admin` WHERE ( login='zhuguan1' ) LIMIT 1   [ RunTime:0.0009s ]
+
+[ 2016-03-17T18:08:40+08:00 ] ::1 /kaili/index.php/Home/Boss
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '=1 )' at line 1
+ [ SQL语句 ] : SELECT * FROM `record` WHERE ( if=1 ) 
+
+[ 2016-03-17T18:10:11+08:00 ] ::1 /kaili/index.php/Home/Boss
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '=1 )' at line 1
+ [ SQL语句 ] : SELECT * FROM `record` WHERE ( if=1 ) 
+
+[ 2016-03-17T18:11:03+08:00 ] ::1 /kaili/index.php/Home/Boss
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '=2 )' at line 1
+ [ SQL语句 ] : SELECT * FROM `record` WHERE ( if=2 ) 
+
+[ 2016-03-17T18:29:38+08:00 ] 192.168.23.2 /kaili/index.php/Home/Boss/loginout
+ERR: 非法操作:loginout
+
+[ 2016-03-17T18:31:37+08:00 ] 192.168.23.2 /kaili/index.php/Home/Boss/loginout
+ERR: 非法操作:loginout
+
+[ 2016-03-17T18:31:55+08:00 ] 192.168.23.2 /kaili/index.php/Home/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001824s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003096s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0129s ]
+SQL: SELECT * FROM `admin` WHERE ( login='root' ) LIMIT 1   [ RunTime:0.0009s ]
+
+[ 2016-03-17T18:32:09+08:00 ] 192.168.23.2 /kaili/index.php/Home/Index/conlogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001400s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002537s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0370s ]
+SQL: SELECT * FROM `user` WHERE ( userphone='1049370257' ) LIMIT 1   [ RunTime:0.0011s ]
+
+[ 2016-03-17T18:32:33+08:00 ] 192.168.23.2 /kaili/index.php/Home/Index/conaddto
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001409s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002259s ]
+SQL: SHOW COLUMNS FROM `record` [ RunTime:0.0139s ]
+SQL: INSERT INTO `record` (`conid`,`mac`,`conpos`,`put`,`type`,`account`,`out`,`give`,`turn`,`coturn`,`waitid`,`time`,`judge`) VALUES ('3','4','5','5000','现金','','5699','800','','','1','2016-03-17 18:32:32','2') [ RunTime:0.0016s ]
+
+[ 2016-03-17T20:30:54+08:00 ] ::1 /kaili/index.php/Home/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002775s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.032389s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0277s ]
+SQL: SELECT * FROM `admin` WHERE ( login='root' ) LIMIT 1   [ RunTime:0.0013s ]
+
+[ 2016-03-17T20:37:40+08:00 ] ::1 /kaili/index.php/Home/Index/conlogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003005s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005481s ]
+
+[ 2016-03-17T20:37:49+08:00 ] ::1 /kaili/index.php/Home/Index/conlogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001548s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002812s ]
+
+[ 2016-03-17T20:38:31+08:00 ] ::1 /kaili/index.php/Home/Index/conlogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001874s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003817s ]
+
+[ 2016-03-17T20:38:55+08:00 ] 192.168.23.2 /kaili/index.php/Home/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001720s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003006s ]
+
+[ 2016-03-17T20:39:12+08:00 ] 192.168.23.2 /kaili/index.php/Home/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006751s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009216s ]
+
+[ 2016-03-17T20:39:18+08:00 ] 192.168.23.2 /kaili/index.php/Home/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003220s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007455s ]
+
+[ 2016-03-17T20:39:47+08:00 ] 192.168.23.2 /kaili/index.php/Home/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003700s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005771s ]
+
+[ 2016-03-17T20:39:47+08:00 ] 192.168.23.2 /kaili/index.php/Home/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001935s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006911s ]
+
+[ 2016-03-17T20:41:53+08:00 ] 192.168.23.2 /kaili/index.php/Home/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002720s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004307s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0497s ]
+SQL: SELECT * FROM `admin` WHERE ( login='root' ) LIMIT 1   [ RunTime:0.0011s ]
+
+[ 2016-03-17T20:42:11+08:00 ] 192.168.23.2 /kaili/index.php/Home/Index/conlogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005480s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006958s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.1164s ]
+SQL: SELECT * FROM `user` WHERE ( userphone='15238309818' ) LIMIT 1   [ RunTime:0.0011s ]
+
+[ 2016-03-17T20:44:21+08:00 ] ::1 /kaili/index.php/Home/Index/conlogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002172s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003554s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `user` WHERE ( userphone='15238309818' ) LIMIT 1   [ RunTime:0.0011s ]
+
+[ 2016-03-17T20:44:52+08:00 ] ::1 /kaili/index.php/Home/Index/conaddto
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002905s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004288s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0113s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\phpstudy\WWW\kaili\App\Home\Controller\IndexController.class.php 第 146 行.
+SQL: SELECT * FROM `user` LIMIT 1   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `record` [ RunTime:0.0127s ]
+SQL: INSERT INTO `record` (`conid`,`conname`,`mac`,`conpos`,`put`,`type`,`account`,`out`,`give`,`turn`,`coturn`,`waitid`,`wainame`,`time`,`judge`) VALUES ('2','好笑','6','1','5000','现金','','200','30','','','1','赵晓明','2016-03-17 20:44:52','2') [ RunTime:0.0016s ]
+
+[ 2016-03-17T20:46:12+08:00 ] ::1 /kaili/index.php/Home/Index/conlogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003993s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005469s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0133s ]
+SQL: SELECT * FROM `user` WHERE ( userphone='15238309818' ) LIMIT 1   [ RunTime:0.0015s ]
+
+[ 2016-03-17T20:46:59+08:00 ] ::1 /kaili/index.php/Home/Index/conaddto
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002593s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005072s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0146s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\phpstudy\WWW\kaili\App\Home\Controller\IndexController.class.php 第 146 行.
+SQL: SELECT * FROM `admin` LIMIT 1   [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `record` [ RunTime:0.0133s ]
+SQL: INSERT INTO `record` (`conid`,`conname`,`mac`,`conpos`,`put`,`type`,`account`,`out`,`give`,`turn`,`coturn`,`waitid`,`wainame`,`time`,`judge`) VALUES ('2','好笑','1','1','5000','刷卡','','8000','','60','','1','服务员1','2016-03-17 20:46:59','2') [ RunTime:0.0015s ]
+
+[ 2016-03-17T20:55:19+08:00 ] ::1 /kaili/index.php/Home/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002664s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003893s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0124s ]
+SQL: SELECT * FROM `admin` WHERE ( login='zhuguan1' ) LIMIT 1   [ RunTime:0.0011s ]
+
+[ 2016-03-17T21:04:18+08:00 ] 192.168.23.2 /kaili/index.php/Home/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001873s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003045s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0139s ]
+SQL: SELECT * FROM `admin` WHERE ( login='zhuguan1' ) LIMIT 1   [ RunTime:0.0012s ]
+

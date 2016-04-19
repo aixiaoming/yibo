@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>艺博后台管理系统</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="format-detection" content="telephone=no">
+    <script type="text/javascript" src="{$Think.const.JS_URL}jquery-2.1.1.min.js"></script>
+    <link href="{$Think.const.CSS_URL}bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="{$Think.const.CSS_URL}common.css" rel="stylesheet" type="text/css">
+    <link href="{$Think.const.CSS_URL}bootstrap-datetimepicker.css" rel="stylesheet" type="text/css">
+    <script src="{$Think.const.JS_URL}jquery-1.8.2.min.js" ></script>
+    <script src="{$Think.const.JS_URL}jquery.min.js"></script>
+    <script src="{$Think.const.JS_URL}jquery.form.js"></script>
+    <script src="{$Think.const.JS_URL}bootstrap.min.js"></script>
+    <script src="{$Think.const.JS_URL}layer/layer.js"></script>
+    <script src="{$Think.const.JS_URL}moment-with-locales.js"></script>
+    <script src="{$Think.const.JS_URL}bootstrap-datetimepicker.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            $('#datetimepicker1').datetimepicker({
+                viewMode: 'days',
+                format: 'YYYY-MM-DD'
+            });
+        });
+    </script>
+    <style>
+
+    </style>
+</head>
+<body>
+
+<include file="Public/header" />
+
+<div class="conselect">
+    <a href="__CONTROLLER__/index"><div class="a">审核申请</div></a>
+    <a href="__CONTROLLER__/record"><div class="a"  id="active">查看记录</div></a>
+    <a href="__CONTROLLER__/roleindex"><div class="a">权限设置</div></a>
+</div>
+
+
+<div class="bosscon">
+
+    <a class="btn btn-info" href="__CONTROLLER__/record" style="position: fixed;top: 60%;right: 0%;width: 50px;height:50px;text-align: center;line-height: 50px;border-radius: 50%;float: right!important;font-size: 12px;padding: 0px;">切换客户</a>
+
+    <form method="post" action="__CONTROLLER__/per" style="margin-top: 20px;">
+        <input type="hidden" name="conid" value="{$conid}">
+        <div class='input-group date' id='datetimepicker1' style="width: 80%;margin-left: 10%;">
+            <input type='text' class="form-control" name="time" value="{$time}"/>
+            <span class="input-group-addon"><span class="glyphicon glyphicon-calendar"></span></span>
+        </div>
+        <button class="btn btn-success" type="submit" style="margin-left:10%;width: 80%;height: 40px;margin-top: 20px;">提交</button>
+    </form><br>
+
+
+
+    <table class="table table-bordered" style="width: 80%;margin-left: 10%;background-color: #fff;">
+       <tr>
+           <th>客户名称</th>
+           <th>{$user.name}</th>
+       </tr>
+        <tr>
+            <th>入分总数</th>
+            <th>{$sum.put}</th>
+        </tr>
+        <tr>
+            <th>出分总数</th>
+            <th>{$sum.out}</th>
+        </tr>
+        <tr>
+            <th>赠分总数</th>
+            <th>{$sum.give}</th>
+        </tr>
+        <tr>
+            <th>优惠总数</th>
+            <th>{$sum.turn}</th>
+        </tr>
+        <tr>
+            <th>扣优惠总数</th>
+            <th>{$sum.coturn}</th>
+        </tr>
+        <tr>
+            <th>返现总数</th>
+            <th>{$sum.out2}</th>
+        </tr>
+        <tr>
+            <th>实际收入</th>
+            <th><php>$zong=$sum["put"]-$sum["out"]-$sum["give"]-$sum["turn"]+$sum["coturn"]-$sum["out2"]; echo ($zong);</php></th>
+        </tr>
+    </table>
+
+
+    <volist name="conuser" id="vo">
+        <table class="table table-condensed" style="width: 80%;margin-left: 10%;background-color: #fff;">
+
+            <tr>
+                <th>客户名称</th>
+                <th>{$vo.conname}</th>
+            </tr>
+            <tr>
+                <th>签到时间</th>
+                <th>{$vo.time}</th>
+            </tr>
+            <tr>
+                <th>机器编号</th>
+                <th>{$vo.mac}</th>
+            </tr>
+            <tr>
+                <th>座位编号</th>
+                <th>{$vo.conpos}</th>
+            </tr>
+            <tr>
+                <th>入　　金</th>
+                <th>{$vo.put}</th>
+            </tr>
+            <tr>
+                <th>入金方式</th>
+                <th>{$vo.type}</th>
+            </tr>
+            <tr>
+                <th>出　　金</th>
+                <th>{$vo.out1}</th>
+            </tr>
+            <tr>
+                <th>赠　　分</th>
+                <th>{$vo.give}</th>
+            </tr>
+            <tr>
+                <th>优　　惠</th>
+                <th>{$vo.turn}</th>
+            </tr>
+            <tr>
+                <th>扣　优惠</th>
+                <th>{$vo.coturn}</th>
+            </tr>
+            <tr>
+                <th>返　　现</th>
+                <th>{$vo.out2}</th>
+            </tr>
+            <tr>
+                <th>合计总数</th>
+                <th><php>$zong=$vo["put"]-$vo["out1"]+$vo["give"]+$vo["turn"]-$vo["coturn"]; echo ($zong);</php></th>
+            </tr>
+            <tr>
+                <th>实际收入</th>
+                <th><php>$zong=$vo["put"]-$vo["out1"]; echo ($zong);</php></th>
+            </tr>
+        </table>
+    </volist>
+</div>
+
+
+
+
+
+
+
+</body>
+</html>

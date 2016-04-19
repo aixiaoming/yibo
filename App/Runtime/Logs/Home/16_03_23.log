@@ -1,0 +1,327 @@
+[ 2016-03-23T10:45:58+08:00 ] ::1 /kaili/index.php/Home/Pc/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001254s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002300s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0733s ]
+SQL: SELECT * FROM `admin` WHERE ( login='admin' ) LIMIT 1   [ RunTime:0.0171s ]
+
+[ 2016-03-23T10:46:49+08:00 ] ::1 /kaili/index.php/Home/Pc/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002502s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004271s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0122s ]
+SQL: SELECT * FROM `admin` WHERE ( login='admin' ) LIMIT 1   [ RunTime:0.0009s ]
+
+[ 2016-03-23T11:06:38+08:00 ] ::1 /kaili/index.php/Home/Pc/update
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001603s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002644s ]
+
+[ 2016-03-23T11:09:19+08:00 ] ::1 /kaili/index.php/Home/Pc/update
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001221s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002074s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0163s ]
+SQL: UPDATE `admin` SET `password`='d41d8cd98f00b204e9800998ecf8427e' WHERE ( id='12' ) [ RunTime:0.0021s ]
+SQL: INSERT INTO `admin` (`password`) VALUES ('d41d8cd98f00b204e9800998ecf8427e') [ RunTime:0.0009s ]
+
+[ 2016-03-23T11:09:35+08:00 ] ::1 /kaili/index.php/Home/Pc/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001278s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002396s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0158s ]
+SQL: SELECT * FROM `admin` WHERE ( login='admin' ) LIMIT 1   [ RunTime:0.0009s ]
+
+[ 2016-03-23T11:09:43+08:00 ] ::1 /kaili/index.php/Home/Pc/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001276s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002375s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0159s ]
+SQL: SELECT * FROM `admin` WHERE ( login='admin' ) LIMIT 1   [ RunTime:0.0011s ]
+
+[ 2016-03-23T11:09:54+08:00 ] ::1 /kaili/index.php/Home/Pc/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001531s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002558s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0164s ]
+SQL: SELECT * FROM `admin` WHERE ( login='admin' ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-03-23T11:10:44+08:00 ] ::1 /kaili/index.php/Home/Pc/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001347s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002320s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0119s ]
+SQL: SELECT * FROM `admin` WHERE ( login='admin' ) LIMIT 1   [ RunTime:0.0009s ]
+
+[ 2016-03-23T11:11:07+08:00 ] ::1 /kaili/index.php/Home/Pc/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001882s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003198s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0154s ]
+SQL: SELECT * FROM `admin` WHERE ( login='admin' ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-03-23T11:11:31+08:00 ] ::1 /kaili/index.php/Home/Pc/update
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001218s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002091s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0859s ]
+SQL: UPDATE `admin` SET `password`='d41d8cd98f00b204e9800998ecf8427e' WHERE ( id='12' ) [ RunTime:0.0010s ]
+SQL: INSERT INTO `admin` (`password`) VALUES ('d41d8cd98f00b204e9800998ecf8427e') [ RunTime:0.0006s ]
+
+[ 2016-03-23T11:12:28+08:00 ] ::1 /kaili/index.php/Home/Pc/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001223s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002128s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `admin` WHERE ( login='admin' ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-03-23T11:14:59+08:00 ] ::1 /kaili/index.php/Home/Pc/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002627s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0172s ]
+SQL: SELECT * FROM `admin` WHERE ( login='admin' ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-03-23T11:15:12+08:00 ] ::1 /kaili/index.php/Home/Pc/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001214s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002098s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0357s ]
+SQL: SELECT * FROM `admin` WHERE ( login='admin' ) LIMIT 1   [ RunTime:0.0009s ]
+
+[ 2016-03-23T11:16:16+08:00 ] ::1 /kaili/index.php/Home/Pc/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001541s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002842s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0115s ]
+SQL: SELECT * FROM `admin` WHERE ( login='admin' ) LIMIT 1   [ RunTime:0.0009s ]
+
+[ 2016-03-23T11:16:30+08:00 ] ::1 /kaili/index.php/Home/Pc/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001253s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002154s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `admin` WHERE ( login='admin' ) LIMIT 1   [ RunTime:0.0011s ]
+
+[ 2016-03-23T11:16:53+08:00 ] ::1 /kaili/index.php/Home/Pc/update
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001244s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002169s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.1206s ]
+SQL: UPDATE `admin` SET `password`='eb798c3edcd6fb50d8692b28b152447c' WHERE ( id='12' ) [ RunTime:0.0011s ]
+
+[ 2016-03-23T11:17:08+08:00 ] ::1 /kaili/index.php/Home/Pc/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001718s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002970s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0158s ]
+SQL: SELECT * FROM `admin` WHERE ( login='admin' ) LIMIT 1   [ RunTime:0.0009s ]
+
+[ 2016-03-23T11:43:14+08:00 ] ::1 /kaili/index.php/Home/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001238s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002157s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0187s ]
+SQL: SELECT * FROM `admin` WHERE ( login='fuwu1' ) LIMIT 1   [ RunTime:0.0011s ]
+
+[ 2016-03-23T11:43:27+08:00 ] ::1 /kaili/index.php/Home/Index/conlogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001408s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002416s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0147s ]
+SQL: SELECT * FROM `user` WHERE ( userphone='1049370257' ) LIMIT 1   [ RunTime:0.0009s ]
+
+[ 2016-03-23T11:46:51+08:00 ] ::1 /kaili/index.php/Home/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001888s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003774s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0133s ]
+SQL: SELECT * FROM `admin` WHERE ( login='zhuguan1' ) LIMIT 1   [ RunTime:0.0009s ]
+
+[ 2016-03-23T15:51:10+08:00 ] ::1 /kaili/index.php/Home/Pc/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001616s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002582s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.2359s ]
+SQL: SELECT * FROM `admin` WHERE ( login='admin' ) LIMIT 1   [ RunTime:0.0092s ]
+
+[ 2016-03-23T15:51:22+08:00 ] ::1 /kaili/index.php/Home/Pc/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001449s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002733s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0278s ]
+SQL: SELECT * FROM `admin` WHERE ( login='admin' ) LIMIT 1   [ RunTime:0.0008s ]
+
+[ 2016-03-23T16:46:36+08:00 ] ::1 /kaili/index.php/Home/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001619s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002698s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0129s ]
+SQL: SELECT * FROM `admin` WHERE ( login='fuwu1' ) LIMIT 1   [ RunTime:0.0008s ]
+
+[ 2016-03-23T16:47:00+08:00 ] ::1 /kaili/index.php/Home/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001301s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002323s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0114s ]
+SQL: SELECT * FROM `admin` WHERE ( login='zhuguan1' ) LIMIT 1   [ RunTime:0.0008s ]
+
+[ 2016-03-23T17:03:47+08:00 ] ::1 /kaili/index.php/Home/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001503s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002792s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0137s ]
+SQL: SELECT * FROM `admin` WHERE ( login='fuwu1' ) LIMIT 1   [ RunTime:0.0008s ]
+
+[ 2016-03-23T17:04:06+08:00 ] ::1 /kaili/index.php/Home/Index/conlogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002058s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003656s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0107s ]
+SQL: SELECT * FROM `user` WHERE ( userphone='15238309818' ) LIMIT 1   [ RunTime:0.0008s ]
+
+[ 2016-03-23T17:12:44+08:00 ] ::1 /kaili/index.php/Home/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001220s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002096s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0118s ]
+SQL: SELECT * FROM `admin` WHERE ( login='fuwu2' ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-03-23T17:12:58+08:00 ] ::1 /kaili/index.php/Home/Index/conlogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002230s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003392s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0106s ]
+SQL: SELECT * FROM `user` WHERE ( userphone='15238309818' ) LIMIT 1   [ RunTime:0.0008s ]
+
+[ 2016-03-23T17:14:03+08:00 ] ::1 /kaili/index.php/Home/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001388s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002335s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0131s ]
+SQL: SELECT * FROM `admin` WHERE ( login='zhuguan1' ) LIMIT 1   [ RunTime:0.0009s ]
+
+[ 2016-03-23T17:37:31+08:00 ] 192.168.173.213 /kaili/index.php/Home/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001650s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002703s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0560s ]
+SQL: SELECT * FROM `admin` WHERE ( login='fuwu1' ) LIMIT 1   [ RunTime:0.0017s ]
+
+[ 2016-03-23T17:37:44+08:00 ] 192.168.173.213 /kaili/index.php/Home/Index/conlogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001888s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003151s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0652s ]
+SQL: SELECT * FROM `user` WHERE ( userphone='1049370287' ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-03-23T17:37:52+08:00 ] 192.168.173.213 /kaili/index.php/Home/Index/conlogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001275s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002274s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0103s ]
+SQL: SELECT * FROM `user` WHERE ( userphone='1049370257' ) LIMIT 1   [ RunTime:0.0009s ]
+
+[ 2016-03-23T17:38:54+08:00 ] 192.168.173.213 /kaili/index.php/Home/Index/conaddto
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001344s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002335s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0109s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\phpstudy\WWW\kaili\App\Home\Controller\IndexController.class.php 第 163 行.
+SQL: SELECT * FROM `admin` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `record` [ RunTime:0.1044s ]
+SQL: INSERT INTO `record` (`conid`,`conname`,`mac`,`conpos`,`put`,`type`,`account`,`out`,`give`,`turn`,`coturn`,`waitid`,`wainame`,`time`,`judge`) VALUES ('3','吉米多少','2','5','4000','现金','','500','','20','','1','服务员1','2016-03-23 17:38:54','2') [ RunTime:0.0015s ]
+
+[ 2016-03-23T17:39:43+08:00 ] 192.168.173.213 /kaili/index.php/Home/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001385s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002412s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0107s ]
+SQL: SELECT * FROM `admin` WHERE ( login='zhuguan1' ) LIMIT 1   [ RunTime:0.0009s ]
+
+[ 2016-03-23T17:40:59+08:00 ] 192.168.173.213 /kaili/index.php/Home/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001589s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006164s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `admin` WHERE ( login='fuwu1' ) LIMIT 1   [ RunTime:0.0009s ]
+
+[ 2016-03-23T17:41:14+08:00 ] 192.168.173.213 /kaili/index.php/Home/Index/conlogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001485s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002548s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0638s ]
+SQL: SELECT * FROM `user` WHERE ( userphone='15238309818' ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-03-23T17:46:39+08:00 ] ::1 /kaili/index.php/Home/Index/conlogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002580s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003977s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0155s ]
+SQL: SELECT * FROM `user` WHERE ( userphone='15238309818' ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-03-23T17:47:06+08:00 ] ::1 /kaili/index.php/Home/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001633s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002879s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0138s ]
+SQL: SELECT * FROM `admin` WHERE ( login='zhuguan1' ) LIMIT 1   [ RunTime:0.0011s ]
+
+[ 2016-03-23T17:49:03+08:00 ] 192.168.173.213 /kaili/index.php/Home/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002323s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004323s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0125s ]
+SQL: SELECT * FROM `admin` WHERE ( login='zhuguan1' ) LIMIT 1   [ RunTime:0.0012s ]
+
+[ 2016-03-23T21:06:11+08:00 ] ::1 /kaili/index.php/Home/Boss/role
+ERR: XML标签语法错误 : condition="in_array("$vo1['id']", $waiter)"
+
+[ 2016-03-23T21:07:32+08:00 ] ::1 /kaili/index.php/Home/Boss/role
+ERR: XML标签语法错误 : condition="in_array('$vo1["id"]', $waiter)"
+
+[ 2016-03-23T21:07:55+08:00 ] ::1 /kaili/index.php/Home/Boss/role
+ERR: XML标签语法错误 : condition="in_array("$vo1["id"]", $waiter)"
+
+[ 2016-03-23T21:07:57+08:00 ] ::1 /kaili/index.php/Home/Boss/role
+ERR: XML标签语法错误 : condition="in_array("$vo1["id"]", $waiter)"
+
+[ 2016-03-23T21:09:01+08:00 ] ::1 /kaili/index.php/Home/Boss/role
+ERR: XML标签语法错误 : condition="in_array("$vo1["id"]", $waiter)"
+
+[ 2016-03-23T21:43:29+08:00 ] ::1 /kaili/index.php/Home/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002173s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005255s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0149s ]
+SQL: SELECT * FROM `admin` WHERE ( login='fuwu1' ) LIMIT 1   [ RunTime:0.0013s ]
+
+[ 2016-03-23T21:44:08+08:00 ] ::1 /kaili/index.php/Home/Index/conreg
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002896s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004263s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0127s ]
+SQL: SELECT * FROM `user` WHERE ( userphone='13937955601' ) LIMIT 1   [ RunTime:0.0009s ]
+SQL: INSERT INTO `user` (`userphone`,`name`) VALUES ('13937955601','张天') [ RunTime:0.0013s ]
+
+[ 2016-03-23T21:44:32+08:00 ] ::1 /kaili/index.php/Home/Index/conlogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004782s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007855s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `user` WHERE ( userphone='13937955601' ) LIMIT 1   [ RunTime:0.0008s ]
+
+[ 2016-03-23T21:45:05+08:00 ] ::1 /kaili/index.php/Home/Pc/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001900s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003237s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0347s ]
+SQL: SELECT * FROM `admin` WHERE ( login='admin' ) LIMIT 1   [ RunTime:0.0008s ]
+
+[ 2016-03-23T21:45:23+08:00 ] ::1 /kaili/index.php/Home/Pc/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001562s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002860s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0137s ]
+SQL: SELECT * FROM `admin` WHERE ( login='admin' ) LIMIT 1   [ RunTime:0.0011s ]
+

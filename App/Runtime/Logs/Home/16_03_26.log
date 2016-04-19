@@ -1,0 +1,2767 @@
+[ 2016-03-26T15:42:47+08:00 ] ::1 /kaili/index.php/Home/Pc/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002211s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.023979s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.1136s ]
+SQL: SELECT * FROM `admin` WHERE ( login='admin' ) LIMIT 1   [ RunTime:0.0186s ]
+
+[ 2016-03-26T15:45:40+08:00 ] ::1 /kaili/index.php/Home/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001633s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003328s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0109s ]
+SQL: SELECT * FROM `admin` WHERE ( login='fuwu1' ) LIMIT 1   [ RunTime:0.0012s ]
+
+[ 2016-03-26T15:46:42+08:00 ] ::1 /kaili/index.php/Home/Index/conreg
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004247s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006834s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0135s ]
+SQL: SELECT * FROM `user` WHERE ( userphone='12345678' ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: INSERT INTO `user` (`userphone`,`name`) VALUES ('12345678','站2') [ RunTime:0.1045s ]
+
+[ 2016-03-26T15:47:18+08:00 ] ::1 /kaili/index.php/Home/Index/conlogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007282s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009082s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0136s ]
+SQL: SELECT * FROM `user` WHERE ( userphone='12345678' ) LIMIT 1   [ RunTime:0.0007s ]
+
+[ 2016-03-26T15:48:05+08:00 ] ::1 /kaili/index.php/Home/Index/conaddto
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002174s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003900s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0171s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\phpstudy\WWW\kaili\App\Home\Controller\IndexController.class.php 第 163 行.
+SQL: SELECT * FROM `admin` LIMIT 1   [ RunTime:0.0008s ]
+
+[ 2016-03-26T15:48:57+08:00 ] ::1 /kaili/index.php/Home/Index/conaddto
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001606s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002896s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0153s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\phpstudy\WWW\kaili\App\Home\Controller\IndexController.class.php 第 163 行.
+SQL: SELECT * FROM `admin` LIMIT 1   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `record` [ RunTime:0.0133s ]
+SQL: INSERT INTO `record` (`conid`,`conname`,`mac`,`conpos`,`put`,`type`,`account`,`out`,`give`,`turn`,`coturn`,`waitid`,`wainame`,`time`,`judge`) VALUES ('9','站2','2','4','5000','现金','','4000','','','','1','服务员1','2016-03-26 15:48:57','1') [ RunTime:0.0014s ]
+
+[ 2016-03-26T15:49:50+08:00 ] ::1 /kaili/index.php/Home/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002376s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004161s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0168s ]
+SQL: SELECT * FROM `admin` WHERE ( login='zhuguan1' ) LIMIT 1   [ RunTime:0.0011s ]
+
+[ 2016-03-26T15:49:59+08:00 ] ::1 /kaili/index.php/Home/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001665s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002886s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0154s ]
+SQL: SELECT * FROM `admin` WHERE ( login='zhuguan1' ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-03-26T15:50:28+08:00 ] ::1 /kaili/index.php/Home/Pc/update
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001393s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002403s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0156s ]
+SQL: UPDATE `admin` SET `password`='e10adc3949ba59abbe56e057f20f883e' WHERE ( id='2' ) [ RunTime:0.0662s ]
+
+[ 2016-03-26T15:50:38+08:00 ] ::1 /kaili/index.php/Home/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001285s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002430s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0137s ]
+SQL: SELECT * FROM `admin` WHERE ( login='zhuguan1' ) LIMIT 1   [ RunTime:0.0009s ]
+
+[ 2016-03-26T15:51:16+08:00 ] ::1 /kaili/index.php/Home/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001506s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002523s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0157s ]
+SQL: SELECT * FROM `admin` WHERE ( login='fuwu1' ) LIMIT 1   [ RunTime:0.0009s ]
+
+[ 2016-03-26T15:51:28+08:00 ] ::1 /kaili/index.php/Home/Index/conlogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001917s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003484s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0703s ]
+SQL: SELECT * FROM `user` WHERE ( userphone='12345678' ) LIMIT 1   [ RunTime:0.0009s ]
+
+[ 2016-03-26T15:51:52+08:00 ] ::1 /kaili/index.php/Home/Index/conaddto
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001367s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002479s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0153s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\phpstudy\WWW\kaili\App\Home\Controller\IndexController.class.php 第 163 行.
+SQL: SELECT * FROM `admin` LIMIT 1   [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `record` [ RunTime:0.0132s ]
+SQL: INSERT INTO `record` (`conid`,`conname`,`mac`,`conpos`,`put`,`type`,`account`,`out`,`give`,`turn`,`coturn`,`waitid`,`wainame`,`time`,`judge`) VALUES ('9','站2','1','4','6000','现金','','6000','700','','','1','服务员1','2016-03-26 15:51:52','2') [ RunTime:0.0015s ]
+
+[ 2016-03-26T15:52:10+08:00 ] ::1 /kaili/index.php/Home/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001424s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002592s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0152s ]
+SQL: SELECT * FROM `admin` WHERE ( login='zhuguan1' ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-03-26T15:56:04+08:00 ] ::1 /kaili/index.php/Home/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001373s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002354s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0155s ]
+SQL: SELECT * FROM `admin` WHERE ( login='fuwu1' ) LIMIT 1   [ RunTime:0.0009s ]
+
+[ 2016-03-26T15:56:16+08:00 ] ::1 /kaili/index.php/Home/Index/conlogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002090s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004860s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0152s ]
+SQL: SELECT * FROM `user` WHERE ( userphone='12345678' ) LIMIT 1   [ RunTime:0.0009s ]
+
+[ 2016-03-26T16:20:30+08:00 ] ::1 /kaili/index.php/Home/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001710s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002911s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0381s ]
+SQL: SELECT * FROM `admin` WHERE ( login='fuwu1' ) LIMIT 1   [ RunTime:0.0009s ]
+
+[ 2016-03-26T16:20:41+08:00 ] ::1 /kaili/index.php/Home/Index/conlogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002765s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003842s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0136s ]
+SQL: SELECT * FROM `user` WHERE ( userphone='12345678' ) LIMIT 1   [ RunTime:0.0013s ]
+
+[ 2016-03-26T16:30:20+08:00 ] ::1 /kaili/index.php/Home/Index/conlogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001384s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002563s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.1036s ]
+SQL: SELECT * FROM `user` WHERE ( userphone='12345678' ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-03-26T16:31:22+08:00 ] ::1 /kaili/index.php/Home/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001260s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002222s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.1031s ]
+SQL: SELECT * FROM `admin` WHERE ( login='fuwu1' ) LIMIT 1   [ RunTime:0.0008s ]
+
+[ 2016-03-26T16:38:39+08:00 ] ::1 /kaili/index.php/Home/Index/conlogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001904s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003234s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0105s ]
+SQL: SELECT * FROM `user` WHERE ( userphone='12345678' ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-03-26T16:45:53+08:00 ] 192.168.191.2 /kaili/index.php/Home/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001673s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002758s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0118s ]
+SQL: SELECT * FROM `admin` WHERE ( login='fuwu1' ) LIMIT 1   [ RunTime:0.0011s ]
+
+[ 2016-03-26T16:46:04+08:00 ] 192.168.191.2 /kaili/index.php/Home/Index/conlogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001329s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002283s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0105s ]
+SQL: SELECT * FROM `user` WHERE ( userphone='12345678' ) LIMIT 1   [ RunTime:0.0009s ]
+
+[ 2016-03-26T16:50:19+08:00 ] 192.168.191.2 /kaili/index.php/Home/Index/conlogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001841s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002964s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0118s ]
+SQL: SELECT * FROM `user` WHERE ( userphone='12345678' ) LIMIT 1   [ RunTime:0.0009s ]
+
+[ 2016-03-26T16:51:35+08:00 ] 192.168.191.2 /kaili/index.php/Home//conadd.html
+ERR: 无法加载控制器:Conadd
+
+[ 2016-03-26T16:55:23+08:00 ] ::1 /kaili/index.php/Home/Index/conlogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001718s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002839s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0142s ]
+SQL: SELECT * FROM `user` WHERE ( userphone='12345678' ) LIMIT 1   [ RunTime:0.0011s ]
+
+[ 2016-03-26T16:56:00+08:00 ] ::1 /kaili/index.php/Home/Index/conaddto
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002232s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004142s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0155s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\phpstudy\WWW\kaili\App\Home\Controller\IndexController.class.php 第 163 行.
+SQL: SELECT * FROM `admin` LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `record` [ RunTime:0.0140s ]
+SQL: INSERT INTO `record` (`conid`,`conname`,`mac`,`conpos`,`put`,`type`,`account`,`out`,`give`,`turn`,`coturn`,`waitid`,`wainame`,`time`,`judge`) VALUES ('9','站2','1','1','10000','现金','','','','','','1','服务员1','2016-03-26 16:56:00','1') [ RunTime:0.0012s ]
+
+[ 2016-03-26T16:58:37+08:00 ] ::1 /kaili/index.php/Home/Index/conlogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003332s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004811s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0814s ]
+SQL: SELECT * FROM `user` WHERE ( userphone='12345678' ) LIMIT 1   [ RunTime:0.0008s ]
+
+[ 2016-03-26T16:58:43+08:00 ] ::1 /kaili/index.php/Home//Index/conout.html
+ERR: 非法操作:conout
+
+[ 2016-03-26T17:11:08+08:00 ] ::1 /kaili/index.php/Home//Index/conout.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'out=''  ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `record` WHERE ( conid='9' and out=''  ) LIMIT 1  
+
+[ 2016-03-26T17:11:31+08:00 ] ::1 /kaili/index.php/Home//Index/conout.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'out=null  ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `record` WHERE ( conid='9' and out=null  ) LIMIT 1  
+
+[ 2016-03-26T17:12:27+08:00 ] ::1 /kaili/index.php/Home//Index/conout.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'out=0  ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `record` WHERE ( conid='9' and out=0  ) LIMIT 1  
+
+[ 2016-03-26T17:13:30+08:00 ] ::1 /kaili/index.php/Home//Index/conout.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'out=0  ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `record` WHERE ( conid='9' and out=0  ) LIMIT 1  
+
+[ 2016-03-26T17:13:32+08:00 ] ::1 /kaili/index.php/Home//Index/conout.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'out=0  ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `record` WHERE ( conid='9' and out=0  ) LIMIT 1  
+
+[ 2016-03-26T17:15:05+08:00 ] ::1 /kaili/index.php/Home//Index/conout.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'out='0' ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `record` WHERE ( conid='9' and out='0' ) LIMIT 1  
+
+[ 2016-03-26T17:15:21+08:00 ] ::1 /kaili/index.php/Home//Index/conout.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'out='0' ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `record` WHERE ( conid='9' and out='0' ) LIMIT 1  
+
+[ 2016-03-26T17:16:45+08:00 ] ::1 /kaili/index.php/Home//Index/conout.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'out='0' ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `record` WHERE ( conid='9' AND out='0' ) LIMIT 1  
+
+[ 2016-03-26T17:18:58+08:00 ] ::1 /kaili/index.php/Home//Index/conout.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'out=0 ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `record` WHERE ( conid='9' AND out=0 ) LIMIT 1  
+
+[ 2016-03-26T17:19:49+08:00 ] ::1 /kaili/index.php/Home//Index/conout.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'out='' ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `record` WHERE ( conid='9' AND out='' ) LIMIT 1  
+
+[ 2016-03-26T18:50:11+08:00 ] ::1 /kaili/index.php/Home/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002068s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.023485s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0108s ]
+SQL: SELECT * FROM `admin` WHERE ( login='fuwu1' ) LIMIT 1   [ RunTime:0.0009s ]
+
+[ 2016-03-26T18:50:24+08:00 ] ::1 /kaili/index.php/Home/Index/conlogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001972s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004401s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0821s ]
+SQL: SELECT * FROM `user` WHERE ( userphone='12345678' ) LIMIT 1   [ RunTime:0.0008s ]
+
+[ 2016-03-26T18:50:35+08:00 ] ::1 /kaili/index.php/Home//Index/conout.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'out='' ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `record` WHERE ( conid='9' AND out='' ) LIMIT 1  
+
+[ 2016-03-26T18:51:48+08:00 ] ::1 /kaili/index.php/Home//Index/conout.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'out='1' ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `record` WHERE ( conid='9' AND out='1' ) LIMIT 1  
+
+[ 2016-03-26T18:51:50+08:00 ] ::1 /kaili/index.php/Home//Index/conout.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'out='1' ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `record` WHERE ( conid='9' AND out='1' ) LIMIT 1  
+
+[ 2016-03-26T18:54:12+08:00 ] ::1 /kaili/index.php/Home//Index/conout.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'out=1 ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `record` WHERE ( out=1 ) LIMIT 1  
+
+[ 2016-03-26T18:54:15+08:00 ] ::1 /kaili/index.php/Home//Index/conout.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'out=1 ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `record` WHERE ( out=1 ) LIMIT 1  
+
+[ 2016-03-26T18:54:39+08:00 ] ::1 /kaili/index.php/Home//Index/conout.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'out=1 ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `record` WHERE ( out=1 ) LIMIT 1  
+
+[ 2016-03-26T18:54:41+08:00 ] ::1 /kaili/index.php/Home//Index/conout.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'out=1 ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `record` WHERE ( out=1 ) LIMIT 1  
+
+[ 2016-03-26T18:55:08+08:00 ] ::1 /kaili/index.php/Home//Index/conout.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'out=1 ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `record` WHERE ( out=1 ) LIMIT 1  
+
+[ 2016-03-26T18:55:45+08:00 ] ::1 /kaili/index.php/Home//Index/conout.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'out=1 ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `record` WHERE ( out=1 ) LIMIT 1  
+
+[ 2016-03-26T18:55:47+08:00 ] ::1 /kaili/index.php/Home//Index/conout.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'out=1 ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `record` WHERE ( out=1 ) LIMIT 1  
+
+[ 2016-03-26T18:55:50+08:00 ] ::1 /kaili/index.php/Home//Index/conout.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'out=1 ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `record` WHERE ( out=1 ) LIMIT 1  
+
+[ 2016-03-26T18:57:19+08:00 ] ::1 /kaili/index.php/Home//Index/conout.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'out='1' ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `record` WHERE ( out='1' ) LIMIT 1  
+
+[ 2016-03-26T18:58:03+08:00 ] ::1 /kaili/index.php/Home//Index/conout.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'out="1" ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `record` WHERE ( out="1" ) LIMIT 1  
+
+[ 2016-03-26T18:58:05+08:00 ] ::1 /kaili/index.php/Home//Index/conout.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'out="1" ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `record` WHERE ( out="1" ) LIMIT 1  
+
+[ 2016-03-26T18:58:28+08:00 ] ::1 /kaili/index.php/Home//Index/conout.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'out="2" ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `record` WHERE ( out="2" ) LIMIT 1  
+
+[ 2016-03-26T18:58:31+08:00 ] ::1 /kaili/index.php/Home//Index/conout.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'out="2" ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `record` WHERE ( out="2" ) LIMIT 1  
+
+[ 2016-03-26T19:09:02+08:00 ] ::1 /kaili/index.php/Home//Index/conout.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'out='' ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `record` WHERE ( conid='9' and out='' ) LIMIT 1  
+
+[ 2016-03-26T19:17:32+08:00 ] ::1 /kaili/index.php/Home/Index/conaddto
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001658s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002743s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0127s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\phpstudy\WWW\kaili\App\Home\Controller\IndexController.class.php 第 188 行.
+SQL: SELECT * FROM `admin` LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `record` [ RunTime:0.0115s ]
+SQL: INSERT INTO `record` (`conid`,`conname`,`mac`,`conpos`,`put`,`type`,`account`,`out1`,`give`,`turn`,`coturn`,`waitid`,`wainame`,`time`,`judge`) VALUES ('9','站2','1','1','10000','现金','','500','','','','1','服务员1','2016-03-26 19:17:31','1') [ RunTime:0.0015s ]
+
+[ 2016-03-26T19:17:58+08:00 ] ::1 /kaili/index.php/Home/Index/conlogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001887s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003512s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0106s ]
+SQL: SELECT * FROM `user` WHERE ( userphone='12345678' ) LIMIT 1   [ RunTime:0.0009s ]
+
+[ 2016-03-26T19:30:59+08:00 ] ::1 /kaili/index.php/Home/Index/conout
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002412s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004817s ]
+SQL: SHOW COLUMNS FROM `record` [ RunTime:0.0117s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in E:\phpstudy\WWW\kaili\App\Home\Controller\IndexController.class.php on line 182 and defined E:\phpstudy\WWW\kaili\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where E:\phpstudy\WWW\kaili\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where E:\phpstudy\WWW\kaili\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where E:\phpstudy\WWW\kaili\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+
+[ 2016-03-26T19:31:58+08:00 ] ::1 /kaili/index.php/Home/Index/conlogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001477s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002626s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0102s ]
+SQL: SELECT * FROM `user` WHERE ( userphone='12345678' ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-03-26T19:32:18+08:00 ] ::1 /kaili/index.php/Home/Index/conout
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001347s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002371s ]
+SQL: SHOW COLUMNS FROM `record` [ RunTime:0.0117s ]
+SQL: UPDATE `record` SET `out1`='200',`give`='',`turn`='',`coturn`='',`judge`='1' WHERE ( id='19' ) [ RunTime:0.0013s ]
+
+[ 2016-03-26T19:34:31+08:00 ] ::1 /kaili/index.php/Home/Index/conlogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001808s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002976s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0614s ]
+SQL: SELECT * FROM `user` WHERE ( userphone='12345678' ) LIMIT 1   [ RunTime:0.0008s ]
+
+[ 2016-03-26T19:46:14+08:00 ] ::1 /kaili/index.php/Home/Index/conlogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001576s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002680s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0102s ]
+SQL: SELECT * FROM `user` WHERE ( userphone='15238309818' ) LIMIT 1   [ RunTime:0.0008s ]
+
+[ 2016-03-26T19:53:22+08:00 ] ::1 /kaili/index.php/Home/Index/conaddto
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002023s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003573s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0120s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\phpstudy\WWW\kaili\App\Home\Controller\IndexController.class.php 第 199 行.
+SQL: SELECT * FROM `admin` LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `record` [ RunTime:0.0121s ]
+SQL: INSERT INTO `record` (`conid`,`conname`,`mac`,`conpos`,`put`,`type`,`account`,`out1`,`give`,`turn`,`coturn`,`waitid`,`wainame`,`time`,`judge`) VALUES ('2','好笑','2','3','2000','刷卡','','','','','','1','服务员1','2016-03-26 19:53:22','1') [ RunTime:0.0013s ]
+
+[ 2016-03-26T19:53:46+08:00 ] ::1 /kaili/index.php/Home/Index/conlogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001244s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002159s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0134s ]
+SQL: SELECT * FROM `user` WHERE ( userphone='18437955601' ) LIMIT 1   [ RunTime:0.0007s ]
+
+[ 2016-03-26T19:54:24+08:00 ] ::1 /kaili/index.php/Home/Index/conaddto
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001253s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002185s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0115s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\phpstudy\WWW\kaili\App\Home\Controller\IndexController.class.php 第 199 行.
+SQL: SELECT * FROM `admin` LIMIT 1   [ RunTime:0.0008s ]
+
+[ 2016-03-26T19:54:37+08:00 ] ::1 /kaili/index.php/Home/Index/conaddto
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006991s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008597s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0143s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\phpstudy\WWW\kaili\App\Home\Controller\IndexController.class.php 第 199 行.
+SQL: SELECT * FROM `admin` LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `record` [ RunTime:0.0115s ]
+SQL: INSERT INTO `record` (`conid`,`conname`,`mac`,`conpos`,`put`,`type`,`account`,`out1`,`give`,`turn`,`coturn`,`waitid`,`wainame`,`time`,`judge`) VALUES ('1','赵晓明','1','1','5000','网银','李主管','','','','','1','服务员1','2016-03-26 19:54:37','1') [ RunTime:0.0010s ]
+
+[ 2016-03-26T19:54:52+08:00 ] ::1 /kaili/index.php/Home/Index/conlogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001275s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002164s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0427s ]
+SQL: SELECT * FROM `user` WHERE ( userphone='15238309818' ) LIMIT 1   [ RunTime:0.0008s ]
+
+[ 2016-03-26T20:18:08+08:00 ] ::1 /kaili/index.php/Home/Index/conlogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001680s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002657s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0124s ]
+SQL: SELECT * FROM `user` WHERE ( userphone='1014887329' ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-03-26T20:18:20+08:00 ] ::1 /kaili/index.php/Home/Index/conlogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001235s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002170s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0111s ]
+SQL: SELECT * FROM `user` WHERE ( userphone='10148873291' ) LIMIT 1   [ RunTime:0.0008s ]
+
+[ 2016-03-26T20:19:45+08:00 ] ::1 /kaili/index.php/Home/Index/conlogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001272s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002212s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0102s ]
+SQL: SELECT * FROM `user` WHERE ( userphone='15238309818' ) LIMIT 1   [ RunTime:0.0008s ]
+
+[ 2016-03-26T20:26:31+08:00 ] ::1 /kaili/index.php/Home/Index/conout
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001370s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002586s ]
+SQL: SHOW COLUMNS FROM `record` [ RunTime:0.0124s ]
+SQL: UPDATE `record` SET `judge`='2',`give`='30' WHERE ( id='21' ) [ RunTime:0.0015s ]
+
+[ 2016-03-26T20:30:20+08:00 ] ::1 /kaili/index.php/Home/Index/conlogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001512s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002787s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0143s ]
+SQL: SELECT * FROM `user` WHERE ( userphone='12345678' ) LIMIT 1   [ RunTime:0.0009s ]
+
+[ 2016-03-26T20:30:48+08:00 ] ::1 /kaili/index.php/Home/Index/conaddto
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001371s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002441s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0108s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\phpstudy\WWW\kaili\App\Home\Controller\IndexController.class.php 第 224 行.
+SQL: SELECT * FROM `admin` LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `record` [ RunTime:0.0135s ]
+SQL: INSERT INTO `record` (`conid`,`conname`,`mac`,`conpos`,`put`,`type`,`account`,`out1`,`give`,`turn`,`coturn`,`waitid`,`wainame`,`time`,`judge`) VALUES ('9','站2','2','6','20000','现金','','','','','','1','服务员1','2016-03-26 20:30:48','1') [ RunTime:0.0011s ]
+
+[ 2016-03-26T20:31:13+08:00 ] ::1 /kaili/index.php/Home/Index/conout
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001278s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002313s ]
+SQL: SHOW COLUMNS FROM `record` [ RunTime:0.0120s ]
+SQL: UPDATE `record` SET `judge`='2',`turn`='30' WHERE ( id='23' ) [ RunTime:0.0011s ]
+
+[ 2016-03-26T20:33:38+08:00 ] ::1 /kaili/index.php/Home/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002179s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003826s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0118s ]
+SQL: SELECT * FROM `admin` WHERE ( login='zhuguan1' ) LIMIT 1   [ RunTime:0.0011s ]
+
+[ 2016-03-26T20:48:15+08:00 ] 192.168.191.2 /kaili/index.php/Home/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001402s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002356s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0138s ]
+SQL: SELECT * FROM `admin` WHERE ( login='fuwu1' ) LIMIT 1   [ RunTime:0.0011s ]
+
+[ 2016-03-26T21:01:27+08:00 ] ::1 /kaili/index.php/Home/Index/bosssee
+ERR: XML标签语法错误 : condition="{$vo["agree"] eq 1} "
+
+[ 2016-03-26T21:09:40+08:00 ] 192.168.191.2 /kaili/index.php/Home/Index/bosssee
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001144s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002305s ]
+SQL: SHOW COLUMNS FROM `record` [ RunTime:0.0118s ]
+SQL: SELECT * FROM `record` WHERE ( agreetime=1 and waisee=1 )  [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000221s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000447s ]
+NOTIC: [8] Undefined variable: page E:\phpstudy\WWW\kaili\App\Runtime\Cache\Home\a2b96e7d1b52a697b82cae36944036da.php 第 99 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033566s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033820s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001507s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001735s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002223s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002457s ]
+
+[ 2016-03-26T21:15:52+08:00 ] ::1 /kaili/index.php/Home/Index/bosssee
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001116s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001920s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002175s ]
+SQL: SHOW COLUMNS FROM `record` [ RunTime:0.0137s ]
+SQL: SELECT * FROM `record` WHERE ( agreetime=1 and waisee=1 )  [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000224s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000461s ]
+NOTIC: [8] Undefined variable: page E:\phpstudy\WWW\kaili\App\Runtime\Cache\Home\a2b96e7d1b52a697b82cae36944036da.php 第 105 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031062s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031305s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001019s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001198s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001805s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001985s ]
+
+[ 2016-03-26T21:16:04+08:00 ] 192.168.191.2 /kaili/index.php/Home/Index/bosssee
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001105s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001780s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002007s ]
+SQL: SHOW COLUMNS FROM `record` [ RunTime:0.0158s ]
+SQL: SELECT * FROM `record` WHERE ( agreetime=1 and waisee=1 )  [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000227s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000460s ]
+NOTIC: [8] Undefined variable: page E:\phpstudy\WWW\kaili\App\Runtime\Cache\Home\a2b96e7d1b52a697b82cae36944036da.php 第 105 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031284s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031559s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001572s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001802s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001922s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002157s ]
+
+[ 2016-03-26T21:16:24+08:00 ] 192.168.191.2 /kaili/index.php/Home/Index/bosssee
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002326s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001941s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002225s ]
+NOTIC: [8] Undefined variable: record E:\phpstudy\WWW\kaili\App\Home\Controller\IndexController.class.php 第 267 行.
+
+[ 2016-03-26T21:17:04+08:00 ] 192.168.191.2 /kaili/index.php/Home/Index/bosssee
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001192s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001492s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001725s ]
+SQL: SHOW COLUMNS FROM `record` [ RunTime:0.0118s ]
+SQL: SELECT * FROM `record` WHERE ( agreetime=1 and waisee=1 )  [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000227s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000450s ]
+NOTIC: [8] Undefined variable: page E:\phpstudy\WWW\kaili\App\Runtime\Cache\Home\a2b96e7d1b52a697b82cae36944036da.php 第 105 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031740s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032036s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001103s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001295s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001914s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002117s ]
+
+[ 2016-03-26T21:17:31+08:00 ] 192.168.191.2 /kaili/index.php/Home/Index/bosssee
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001282s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001712s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001918s ]
+NOTIC: [8] Undefined variable: record E:\phpstudy\WWW\kaili\App\Home\Controller\IndexController.class.php 第 267 行.
+
+[ 2016-03-26T21:18:19+08:00 ] ::1 /kaili/index.php/Home/Index/bosssee
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000997s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001594s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001861s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002255s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002524s ]
+
+[ 2016-03-26T21:19:09+08:00 ] 192.168.191.2 /kaili/index.php/Home/Index/bosssee
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001215s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001806s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002016s ]
+SQL: SHOW COLUMNS FROM `record` [ RunTime:0.0120s ]
+SQL: UPDATE `record` SET `waisee`='2' WHERE ( id='21' ) [ RunTime:0.0019s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000171s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000394s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023551s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023841s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000910s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001086s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002616s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002835s ]
+
+[ 2016-03-26T21:19:12+08:00 ] 192.168.191.2 /kaili/index.php/Home/Boss/bosssee
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000938s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001664s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001894s ]
+ERR: 非法操作:bosssee
+
+[ 2016-03-26T21:19:43+08:00 ] 192.168.191.2 /kaili/index.php/Home/Boss/bosssee
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001173s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001905s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002151s ]
+ERR: 非法操作:bosssee
+
+[ 2016-03-26T21:19:48+08:00 ] 192.168.191.2 /kaili/index.php/Home/Boss/bosssee
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000948s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001272s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001462s ]
+ERR: 非法操作:bosssee
+
+[ 2016-03-26T21:19:51+08:00 ] 192.168.191.2 /kaili/index.php/Home/Index/bosssee
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001009s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001321s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001515s ]
+SQL: SHOW COLUMNS FROM `record` [ RunTime:0.0212s ]
+SQL: SELECT * FROM `record` WHERE ( agreetime=1 and waisee=1 )  [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000246s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000496s ]
+NOTIC: [8] Undefined variable: page E:\phpstudy\WWW\kaili\App\Runtime\Cache\Home\a2b96e7d1b52a697b82cae36944036da.php 第 105 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033698s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034019s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001270s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001502s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002316s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002552s ]
+
+[ 2016-03-26T21:19:52+08:00 ] 192.168.191.2 /kaili/index.php/Home/Index/bosssee
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001126s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001884s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002124s ]
+SQL: SHOW COLUMNS FROM `record` [ RunTime:0.0144s ]
+SQL: SELECT * FROM `record` WHERE ( agreetime=1 and waisee=1 )  [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000228s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000452s ]
+NOTIC: [8] Undefined variable: page E:\phpstudy\WWW\kaili\App\Runtime\Cache\Home\a2b96e7d1b52a697b82cae36944036da.php 第 105 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033253s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033498s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001268s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002191s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002419s ]
+
+[ 2016-03-26T21:20:03+08:00 ] ::1 /kaili/index.php/Home/Index/bosssee
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001151s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001370s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001586s ]
+SQL: SHOW COLUMNS FROM `record` [ RunTime:0.0126s ]
+SQL: SELECT * FROM `record` WHERE ( agreetime=1 and waisee=1 )  [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000250s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000553s ]
+NOTIC: [8] Undefined variable: page E:\phpstudy\WWW\kaili\App\Runtime\Cache\Home\a2b96e7d1b52a697b82cae36944036da.php 第 105 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029916s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030164s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000650s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000829s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001676s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001857s ]
+
+[ 2016-03-26T21:20:05+08:00 ] ::1 /kaili/index.php/Home/Index/bosssee
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001007s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001442s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001657s ]
+SQL: SHOW COLUMNS FROM `record` [ RunTime:0.0162s ]
+SQL: SELECT * FROM `record` WHERE ( agreetime=1 and waisee=1 )  [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000229s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000451s ]
+NOTIC: [8] Undefined variable: page E:\phpstudy\WWW\kaili\App\Runtime\Cache\Home\a2b96e7d1b52a697b82cae36944036da.php 第 105 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029732s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029975s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000831s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001028s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002594s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002820s ]
+
+[ 2016-03-26T21:20:09+08:00 ] 192.168.191.2 /kaili/index.php/Home/Index/reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001159s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001775s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002029s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000194s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000420s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025800s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026048s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000909s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001088s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001819s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001996s ]
+
+[ 2016-03-26T21:20:11+08:00 ] 192.168.191.2 /kaili/index.php/Home/Index/waiter
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000957s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001400s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001651s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000549s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000813s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019875s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020394s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000704s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000880s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001770s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001956s ]
+
+[ 2016-03-26T21:20:14+08:00 ] 192.168.191.2 /kaili/index.php/Home/Index/bosssee
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000927s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001306s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001511s ]
+SQL: SHOW COLUMNS FROM `record` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `record` WHERE ( agreetime=1 and waisee=1 )  [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000274s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000615s ]
+NOTIC: [8] Undefined variable: page E:\phpstudy\WWW\kaili\App\Runtime\Cache\Home\a2b96e7d1b52a697b82cae36944036da.php 第 105 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029413s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029650s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000667s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000847s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001777s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001979s ]
+
+[ 2016-03-26T21:20:15+08:00 ] 192.168.191.2 /kaili/index.php/Home/Index/reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001109s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001377s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001588s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000176s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000406s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019530s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019792s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000985s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002117s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002284s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002512s ]
+
+[ 2016-03-26T21:20:17+08:00 ] 192.168.191.2 /kaili/index.php/Home/Index/waiter
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001025s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001446s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001681s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000189s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000415s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019778s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020040s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000688s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000878s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001846s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002050s ]
+
+[ 2016-03-26T21:20:28+08:00 ] 192.168.191.2 /kaili/index.php/Home/Index/conlogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003325s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001723s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001917s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0111s ]
+SQL: SELECT * FROM `user` WHERE ( userphone='15238309818' ) LIMIT 1   [ RunTime:0.0009s ]
+
+[ 2016-03-26T21:20:30+08:00 ] 192.168.191.2 /kaili/index.php/Home/Index/select.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000933s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001238s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001424s ]
+SQL: SHOW COLUMNS FROM `record` [ RunTime:0.0119s ]
+SQL: SELECT * FROM `record` WHERE ( conid='2' and out1='' ) LIMIT 1   [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000165s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000390s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021926s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022204s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001120s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001317s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001631s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001816s ]
+
+[ 2016-03-26T21:20:46+08:00 ] ::1 /kaili/index.php/Home/Index/waiter
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000956s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001266s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001457s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000187s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000542s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020806s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021051s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000680s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000857s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001802s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001988s ]
+
+[ 2016-03-26T21:20:54+08:00 ] ::1 /kaili/index.php/Home/Index/conlogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000107s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001068s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001392s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001592s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0108s ]
+SQL: SELECT * FROM `user` WHERE ( userphone='15238309818' ) LIMIT 1   [ RunTime:0.0009s ]
+
+[ 2016-03-26T21:20:56+08:00 ] ::1 /kaili/index.php/Home/Index/select.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000072s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001677s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001438s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001683s ]
+SQL: SHOW COLUMNS FROM `record` [ RunTime:0.0161s ]
+SQL: SELECT * FROM `record` WHERE ( conid='2' and out1='' ) LIMIT 1   [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000168s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000403s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021185s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021501s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000769s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000957s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001857s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002056s ]
+
+[ 2016-03-26T21:21:30+08:00 ] 192.168.191.2 /kaili/index.php/Home/Index/select.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001236s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001510s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001793s ]
+SQL: SHOW COLUMNS FROM `record` [ RunTime:0.0125s ]
+SQL: SELECT * FROM `record` WHERE ( conid='2' and out1='' ) LIMIT 1   [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000162s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000376s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019948s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020227s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000965s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001200s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001969s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002156s ]
+
+[ 2016-03-26T21:24:08+08:00 ] 192.168.191.2 /kaili/index.php/Home/Index/select.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001163s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005002s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005251s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0300s ]
+SQL: SELECT * FROM `user` WHERE ( id='2' ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `record` [ RunTime:0.0127s ]
+SQL: SELECT * FROM `record` WHERE ( conid='2' and out1='' ) LIMIT 1   [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000164s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000390s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023194s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023480s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000920s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001105s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001922s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002108s ]
+
+[ 2016-03-26T21:24:41+08:00 ] 192.168.191.2 /kaili/index.php/Home/Index/select.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001156s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001963s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002197s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0149s ]
+SQL: SELECT * FROM `user` WHERE ( id='2' ) LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `record` [ RunTime:0.0137s ]
+SQL: SELECT * FROM `record` WHERE ( conid='2' and out1='' ) LIMIT 1   [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000170s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000395s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022334s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022639s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000991s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001191s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001777s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001976s ]
+
+[ 2016-03-26T21:25:06+08:00 ] 192.168.191.2 /kaili/index.php/Home/Index/select.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001519s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001361s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001571s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0107s ]
+SQL: SELECT * FROM `user` WHERE ( id='2' ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `record` [ RunTime:0.0124s ]
+SQL: SELECT * FROM `record` WHERE ( conid='2' and out1='' ) LIMIT 1   [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000157s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000369s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020896s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021206s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000952s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001168s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002064s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002274s ]
+
+[ 2016-03-26T21:25:25+08:00 ] 192.168.191.2 /kaili/index.php/Home/Index/select.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001330s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002513s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002804s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `user` WHERE ( id='2' ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `record` [ RunTime:0.0126s ]
+SQL: SELECT * FROM `record` WHERE ( conid='2' and out1='' ) LIMIT 1   [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000168s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000396s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022874s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023168s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000949s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001138s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002105s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002307s ]
+
+[ 2016-03-26T21:25:37+08:00 ] 192.168.191.2 /kaili/index.php/Home/Index/select.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000937s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001346s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001633s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0272s ]
+SQL: SELECT * FROM `user` WHERE ( id='2' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `record` [ RunTime:0.0128s ]
+SQL: SELECT * FROM `record` WHERE ( conid='2' and out1='' ) LIMIT 1   [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000173s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000407s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020402s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020673s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000670s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000863s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001635s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001851s ]
+
+[ 2016-03-26T21:26:25+08:00 ] 192.168.191.2 /kaili/index.php/Home/Index/select.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001377s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002239s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002511s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0116s ]
+SQL: SELECT * FROM `user` WHERE ( id='2' ) LIMIT 1   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `record` [ RunTime:0.0139s ]
+SQL: SELECT * FROM `record` WHERE ( conid='2' and out1='' ) LIMIT 1   [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000168s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000398s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023692s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023989s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001243s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001465s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002215s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002442s ]
+
+[ 2016-03-26T21:26:52+08:00 ] 192.168.191.2 /kaili/index.php/Home/Index/select.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001484s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001352s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001558s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0108s ]
+SQL: SELECT * FROM `user` WHERE ( id='2' ) LIMIT 1   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `record` [ RunTime:0.0122s ]
+SQL: SELECT * FROM `record` WHERE ( conid='2' and out1='' ) LIMIT 1   [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000166s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000382s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019809s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020082s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000643s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000820s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001793s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001972s ]
+
+[ 2016-03-26T21:26:55+08:00 ] 192.168.191.2 /kaili/index.php/Home/Index/select.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001071s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001526s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001767s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0104s ]
+SQL: SELECT * FROM `user` WHERE ( id='2' ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `record` [ RunTime:0.0127s ]
+SQL: SELECT * FROM `record` WHERE ( conid='2' and out1='' ) LIMIT 1   [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000159s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000374s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022443s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022735s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000909s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001111s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002173s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002392s ]
+
+[ 2016-03-26T21:27:11+08:00 ] 192.168.191.2 /kaili/index.php/Home/Index/select.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001192s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001659s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001858s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0109s ]
+SQL: SELECT * FROM `user` WHERE ( id='2' ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `record` [ RunTime:0.0133s ]
+SQL: SELECT * FROM `record` WHERE ( conid='2' and out1='' ) LIMIT 1   [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000168s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000393s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022699s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022999s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001186s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002038s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002239s ]
+
+[ 2016-03-26T21:27:45+08:00 ] 192.168.191.2 /kaili/index.php/Home/Index/select.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000962s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001263s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001452s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0111s ]
+SQL: SELECT * FROM `user` WHERE ( id='2' ) LIMIT 1   [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `record` [ RunTime:0.0141s ]
+SQL: SELECT * FROM `record` WHERE ( conid='2' and out1='' ) LIMIT 1   [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000169s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000391s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020750s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021082s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000839s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001038s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001802s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001985s ]
+
+[ 2016-03-26T21:28:09+08:00 ] 192.168.191.2 /kaili/index.php/Home/Index/select.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001141s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001964s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002213s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0109s ]
+SQL: SELECT * FROM `user` WHERE ( id='2' ) LIMIT 1   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `record` [ RunTime:0.0132s ]
+SQL: SELECT * FROM `record` WHERE ( conid='2' and out1='' ) LIMIT 1   [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000168s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000392s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023582s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023888s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001154s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001364s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002179s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002402s ]
+
+[ 2016-03-26T21:28:44+08:00 ] 192.168.191.2 /kaili/index.php/Home/Index/select.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001312s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001877s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002090s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0123s ]
+SQL: SELECT * FROM `user` WHERE ( id='2' ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `record` [ RunTime:0.0132s ]
+SQL: SELECT * FROM `record` WHERE ( conid='2' and out1='' ) LIMIT 1   [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000170s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000398s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022716s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023095s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001205s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001413s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002571s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003042s ]
+
+[ 2016-03-26T21:29:22+08:00 ] 192.168.191.2 /kaili/index.php/Home/Index/select.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001142s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001834s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002059s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0109s ]
+SQL: SELECT * FROM `user` WHERE ( id='2' ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `record` [ RunTime:0.0122s ]
+SQL: SELECT * FROM `record` WHERE ( conid='2' and out1='' ) LIMIT 1   [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000180s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000417s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023012s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023287s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001022s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001588s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002409s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002627s ]
+
+[ 2016-03-26T21:30:14+08:00 ] 192.168.191.2 /kaili/index.php/Home/Index/select.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001029s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001498s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001731s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `user` WHERE ( id='2' ) LIMIT 1   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `record` [ RunTime:0.0132s ]
+SQL: SELECT * FROM `record` WHERE ( conid='2' and out1='' ) LIMIT 1   [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000175s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000409s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021135s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021431s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000954s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001546s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002127s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002352s ]
+
+[ 2016-03-26T21:30:20+08:00 ] 192.168.191.2 /kaili/index.php/Home/Index/select.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001018s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001370s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001584s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0102s ]
+SQL: SELECT * FROM `user` WHERE ( id='2' ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `record` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `record` WHERE ( conid='2' and out1='' ) LIMIT 1   [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000164s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000372s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020029s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020307s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000835s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001032s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002140s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002358s ]
+
+[ 2016-03-26T21:31:42+08:00 ] 192.168.191.2 /kaili/index.php/Home/Index/select.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001160s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001801s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002014s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0136s ]
+SQL: SELECT * FROM `user` WHERE ( id='2' ) LIMIT 1   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `record` [ RunTime:0.0124s ]
+SQL: SELECT * FROM `record` WHERE ( conid='2' and out1='' ) LIMIT 1   [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000171s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000412s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022541s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022831s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001266s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001491s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002285s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002504s ]
+
+[ 2016-03-26T21:32:03+08:00 ] 192.168.191.2 /kaili/index.php/Home//Index/conout.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001086s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001894s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002387s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `user` WHERE ( id='2' ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `record` [ RunTime:0.0125s ]
+SQL: SELECT * FROM `record` WHERE ( conid='2' and out1='' ) LIMIT 1   [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000224s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000439s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.047951s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048271s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001016s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001214s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002068s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002272s ]
+
+[ 2016-03-26T21:32:51+08:00 ] 192.168.191.2 /kaili/index.php/Home/Index/select.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001369s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001549s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001793s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0103s ]
+SQL: SELECT * FROM `user` WHERE ( id='2' ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `record` [ RunTime:0.0123s ]
+SQL: SELECT * FROM `record` WHERE ( conid='2' and out1='' ) LIMIT 1   [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000166s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000390s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020063s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020332s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000647s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000826s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001945s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002156s ]
+
+[ 2016-03-26T21:33:15+08:00 ] 192.168.191.2 /kaili/index.php/Home/Index/select.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001104s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002166s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002502s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0636s ]
+SQL: SELECT * FROM `user` WHERE ( id='2' ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `record` [ RunTime:0.0127s ]
+SQL: SELECT * FROM `record` WHERE ( conid='2' and out1='' ) LIMIT 1   [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000165s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000388s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022336s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022614s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000964s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001146s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001811s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002024s ]
+
+[ 2016-03-26T21:33:40+08:00 ] 192.168.191.2 /kaili/index.php/Home/Index/select.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001266s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002242s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002492s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0105s ]
+SQL: SELECT * FROM `user` WHERE ( id='2' ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `record` [ RunTime:0.0128s ]
+SQL: SELECT * FROM `record` WHERE ( conid='2' and out1='' ) LIMIT 1   [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000171s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000415s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022380s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022659s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000970s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001150s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001892s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002072s ]
+
+[ 2016-03-26T21:34:01+08:00 ] 192.168.191.2 /kaili/index.php/Home/Index/select.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001257s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001846s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002077s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0105s ]
+SQL: SELECT * FROM `user` WHERE ( id='2' ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `record` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `record` WHERE ( conid='2' and out1='' ) LIMIT 1   [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000178s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000416s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022396s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022670s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001045s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001241s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001976s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002186s ]
+
+[ 2016-03-26T21:34:21+08:00 ] 192.168.191.2 /kaili/index.php/Home/Index/loginout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000930s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003734s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003981s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000172s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000402s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041195s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041442s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000674s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000849s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001580s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001787s ]
+
+[ 2016-03-26T21:34:26+08:00 ] ::1 /kaili/index.php/Home/Index/loginout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000169s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001249s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001928s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002210s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000181s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000409s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020337s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020590s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000880s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001081s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001430s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001625s ]
+
+[ 2016-03-26T21:34:49+08:00 ] 192.168.191.2 /kaili/index.php/Home/Index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000963s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001260s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001440s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `admin` WHERE ( login='fuwu1' ) LIMIT 1   [ RunTime:0.0009s ]
+
+[ 2016-03-26T21:34:49+08:00 ] 192.168.191.2 /kaili/index.php/Home/Index/jump.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001044s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001318s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001516s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000161s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000383s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021510s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021757s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000737s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000930s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001851s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002042s ]
+
+[ 2016-03-26T21:34:53+08:00 ] 192.168.191.2 /kaili/index.php/Home/Index/waiter
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000928s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001434s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001651s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000180s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000401s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019243s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019515s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000664s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000837s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001810s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001996s ]
+
+[ 2016-03-26T21:35:07+08:00 ] 192.168.191.2 /kaili/index.php/Home/Index/conlogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001185s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001637s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001854s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0103s ]
+SQL: SELECT * FROM `user` WHERE ( userphone='12345678' ) LIMIT 1   [ RunTime:0.0007s ]
+
+[ 2016-03-26T21:35:08+08:00 ] 192.168.191.2 /kaili/index.php/Home/Index/select.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000958s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001352s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001562s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0111s ]
+SQL: SELECT * FROM `user` WHERE ( id='9' ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `record` [ RunTime:0.0137s ]
+SQL: SELECT * FROM `record` WHERE ( conid='9' and out1='' ) LIMIT 1   [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000164s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000380s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021150s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021446s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001212s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001441s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001568s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001753s ]
+
+[ 2016-03-26T21:35:58+08:00 ] 192.168.191.2 /kaili/index.php/Home/Index/waiter.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001212s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002830s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003098s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000184s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000407s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021159s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021415s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000988s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001168s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001874s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002052s ]
+
+[ 2016-03-26T21:36:17+08:00 ] 192.168.191.2 /kaili/index.php/Home/Index/conlogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001178s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001938s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002166s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0104s ]
+SQL: SELECT * FROM `user` WHERE ( userphone='15238309817' ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-03-26T21:36:18+08:00 ] 192.168.191.2 /kaili/index.php/Home/Index/select.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001180s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001453s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001660s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0104s ]
+SQL: SELECT * FROM `user` WHERE ( id='8' ) LIMIT 1   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `record` [ RunTime:0.0123s ]
+SQL: SELECT * FROM `record` WHERE ( conid='8' and out1='' ) LIMIT 1   [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000178s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000413s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022020s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022309s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000997s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001177s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001576s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001756s ]
+
+[ 2016-03-26T21:36:30+08:00 ] 192.168.191.2 /kaili/index.php/Home//Index/conadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001158s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001318s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001532s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0101s ]
+SQL: SELECT * FROM `user` WHERE ( id='8' ) LIMIT 1   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0121s ]
+SQL: SELECT * FROM `admin` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `machine` [ RunTime:0.0127s ]
+SQL: SELECT * FROM `machine` WHERE ( level=2 )  [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000238s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000469s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.060863s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.061219s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000881s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001071s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001866s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002315s ]
+
+[ 2016-03-26T21:36:50+08:00 ] 192.168.191.2 /kaili/index.php/Home/Index/conaddto
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000955s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001365s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001548s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0147s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\phpstudy\WWW\kaili\App\Home\Controller\IndexController.class.php 第 226 行.
+SQL: SELECT * FROM `admin` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `record` [ RunTime:0.0125s ]
+SQL: INSERT INTO `record` (`conid`,`conname`,`mac`,`conpos`,`put`,`type`,`account`,`out1`,`give`,`turn`,`coturn`,`waitid`,`wainame`,`time`,`judge`) VALUES ('8','朱科目','2','5','5000','刷卡','','','','','','1','服务员1','2016-03-26 21:36:50','1') [ RunTime:0.0011s ]
+
+[ 2016-03-26T21:36:50+08:00 ] 192.168.191.2 /kaili/index.php/Home/Index/jump2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000945s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001518s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001743s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000166s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000400s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019606s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019845s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000644s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000821s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001320s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001506s ]
+
+[ 2016-03-26T21:36:55+08:00 ] 192.168.191.2 /kaili/index.php/Home/Index/select
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001142s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001531s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001758s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0113s ]
+SQL: SELECT * FROM `user` WHERE ( id='8' ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `record` [ RunTime:0.0125s ]
+SQL: SELECT * FROM `record` WHERE ( conid='8' and out1='' ) LIMIT 1   [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000166s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000383s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020123s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020405s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000657s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000834s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001523s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001758s ]
+
+[ 2016-03-26T21:37:04+08:00 ] 192.168.191.2 /kaili/index.php/Home//Index/conout.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001224s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001543s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001800s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0108s ]
+SQL: SELECT * FROM `user` WHERE ( id='8' ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `record` [ RunTime:0.0118s ]
+SQL: SELECT * FROM `record` WHERE ( conid='8' and out1='' ) LIMIT 1   [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000223s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000439s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022322s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022615s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000661s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000838s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001716s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001894s ]
+
+[ 2016-03-26T21:37:25+08:00 ] 192.168.191.2 /kaili/index.php/Home/Index/conout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001357s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001993s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002238s ]
+SQL: SHOW COLUMNS FROM `record` [ RunTime:0.0131s ]
+SQL: UPDATE `record` SET `judge`='2',`give`='500' WHERE ( id='24' ) [ RunTime:0.0013s ]
+
+[ 2016-03-26T21:37:25+08:00 ] 192.168.191.2 /kaili/index.php/Home/Index/jump2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001615s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001488s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001722s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000169s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000411s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026157s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026430s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000991s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001175s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002041s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002237s ]
+
+[ 2016-03-26T21:37:30+08:00 ] 192.168.191.2 /kaili/index.php/Home/Index/select
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000963s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001528s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001781s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0103s ]
+SQL: SELECT * FROM `user` WHERE ( id='8' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `record` [ RunTime:0.0121s ]
+SQL: SELECT * FROM `record` WHERE ( conid='8' and out1='' ) LIMIT 1   [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000173s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000393s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023564s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023895s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000714s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000909s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001904s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002097s ]
+
+[ 2016-03-26T21:39:26+08:00 ] 192.168.191.2 /kaili/index.php/Home/Index/select
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001259s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001947s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002193s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0122s ]
+SQL: SELECT * FROM `user` WHERE ( id='8' ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `record` [ RunTime:0.0124s ]
+SQL: SELECT * FROM `record` WHERE ( conid='8' and out1='' ) LIMIT 1   [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000165s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000385s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022354s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001311s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001533s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002175s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002396s ]
+
+[ 2016-03-26T21:39:30+08:00 ] 192.168.191.2 /kaili/index.php/Home/Index/select
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001094s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001446s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001670s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0415s ]
+SQL: SELECT * FROM `user` WHERE ( id='8' ) LIMIT 1   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `record` [ RunTime:0.0139s ]
+SQL: SELECT * FROM `record` WHERE ( conid='8' and out1='' ) LIMIT 1   [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000166s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000385s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020545s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020812s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000651s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000825s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001718s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001902s ]
+
+[ 2016-03-26T21:39:59+08:00 ] 192.168.191.2 /kaili/index.php/Home/Index/select
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001177s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001935s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002305s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0106s ]
+SQL: SELECT * FROM `user` WHERE ( id='8' ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `record` [ RunTime:0.0123s ]
+SQL: SELECT * FROM `record` WHERE ( conid='8' and out1='' ) LIMIT 1   [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000184s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000416s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022772s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023059s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001004s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001228s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002169s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002389s ]
+
+[ 2016-03-26T21:41:01+08:00 ] 192.168.191.2 /kaili/index.php/Home/Index/select
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001132s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001980s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002234s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `user` WHERE ( id='8' ) LIMIT 1   [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `record` [ RunTime:0.0129s ]
+SQL: SELECT * FROM `record` WHERE ( conid='8' and out1='' ) LIMIT 1   [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000187s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000455s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024621s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024916s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001151s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001351s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002160s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002377s ]
+
+[ 2016-03-26T21:41:32+08:00 ] ::1 /kaili/index.php/Home/Index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001571s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001911s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002142s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0118s ]
+SQL: SELECT * FROM `admin` WHERE ( login='zhuguan1' ) LIMIT 1   [ RunTime:0.0009s ]
+
+[ 2016-03-26T21:41:32+08:00 ] ::1 /kaili/index.php/Home/Boss/jump1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000960s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001955s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002186s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000186s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000407s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027480s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027805s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001573s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001792s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002042s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002248s ]
+
+[ 2016-03-26T21:41:37+08:00 ] ::1 /kaili/index.php/Home/Boss/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001445s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001314s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001522s ]
+SQL: SHOW COLUMNS FROM `record` [ RunTime:0.0121s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `record` WHERE ( judge=2 AND agreetime=2 ) LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `record` WHERE ( judge=2 and agreetime=2 ) ORDER BY time LIMIT 0,20   [ RunTime:0.0017s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000226s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000461s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043724s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043992s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001810s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002041s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002686s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002973s ]
+
+[ 2016-03-26T21:43:11+08:00 ] ::1 /kaili/index.php/Home/Index/select.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001145s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001483s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001707s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0118s ]
+SQL: SELECT * FROM `user` WHERE ( id='2' ) LIMIT 1   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `record` [ RunTime:0.0127s ]
+SQL: SELECT * FROM `record` WHERE ( conid='2' and out1='' ) LIMIT 1   [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000238s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000479s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021032s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021338s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000657s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000840s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001914s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002152s ]
+
+[ 2016-03-26T21:43:34+08:00 ] ::1 /kaili/index.php/Home/Boss/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001097s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001776s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001987s ]
+SQL: SHOW COLUMNS FROM `record` [ RunTime:0.0164s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `record` WHERE ( judge=2 AND agreetime=2 ) LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `record` WHERE ( judge=2 and agreetime=2 ) ORDER BY time LIMIT 0,20   [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000218s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000443s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031296s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031550s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000987s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001175s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002410s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002716s ]
+
+[ 2016-03-26T21:43:46+08:00 ] ::1 /kaili/index.php/Home/Boss/agree
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001141s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003107s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003386s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `admin` WHERE ( id='2' ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `record` [ RunTime:0.0124s ]
+SQL: UPDATE `record` SET `bossname`='主管1',`agree`='1',`agreetime`='1',`stime`='2016-03-26 21:43:46',`bossid`='2' WHERE ( id='24' ) [ RunTime:0.0017s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000169s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000445s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023657s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023910s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001062s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001248s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001816s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001999s ]
+
+[ 2016-03-26T21:43:51+08:00 ] ::1 /kaili/index.php/Home/Boss/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002409s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001466s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001697s ]
+SQL: SHOW COLUMNS FROM `record` [ RunTime:0.0124s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `record` WHERE ( judge=2 AND agreetime=2 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `record` WHERE ( judge=2 and agreetime=2 ) ORDER BY time LIMIT 0,20   [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000226s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000461s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028952s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029247s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000655s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000836s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002264s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002490s ]
+
+[ 2016-03-26T21:43:57+08:00 ] 192.168.191.2 /kaili/index.php/Home/Index/bosssee
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001221s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001788s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002012s ]
+SQL: SHOW COLUMNS FROM `record` [ RunTime:0.0129s ]
+SQL: SELECT * FROM `record` WHERE ( agreetime=1 and waisee=1 )  [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000230s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000456s ]
+NOTIC: [8] Undefined variable: page E:\phpstudy\WWW\kaili\App\Runtime\Cache\Home\a2b96e7d1b52a697b82cae36944036da.php 第 105 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.092575s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.092824s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000918s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001095s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002289s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002506s ]
+
+[ 2016-03-26T21:44:15+08:00 ] 192.168.191.2 /kaili/index.php/Home/Index/bosssee
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000961s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001723s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003577s ]
+SQL: SHOW COLUMNS FROM `record` [ RunTime:0.0132s ]
+SQL: UPDATE `record` SET `waisee`='2' WHERE ( id='24' ) [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000165s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000383s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020853s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021125s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000630s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000819s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003298s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003570s ]
+
+[ 2016-03-26T21:44:20+08:00 ] 192.168.191.2 /kaili/index.php/Home/Index/bosssee
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001296s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001685s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001944s ]
+SQL: SHOW COLUMNS FROM `record` [ RunTime:0.0121s ]
+SQL: SELECT * FROM `record` WHERE ( agreetime=1 and waisee=1 )  [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000226s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000458s ]
+NOTIC: [8] Undefined variable: page E:\phpstudy\WWW\kaili\App\Runtime\Cache\Home\a2b96e7d1b52a697b82cae36944036da.php 第 105 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031984s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032252s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000945s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001148s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002051s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002278s ]
+
+[ 2016-03-26T21:44:38+08:00 ] 192.168.191.2 /kaili/index.php/Home//Index/conout.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000981s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001371s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001567s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0134s ]
+SQL: SELECT * FROM `user` WHERE ( id='8' ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `record` [ RunTime:0.0129s ]
+SQL: SELECT * FROM `record` WHERE ( conid='8' and out1='' ) LIMIT 1   [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000221s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000440s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022019s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022319s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001119s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001324s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002054s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002263s ]
+
+[ 2016-03-26T21:44:50+08:00 ] 192.168.191.2 /kaili/index.php/Home/Index/conout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000939s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001262s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001441s ]
+SQL: SHOW COLUMNS FROM `record` [ RunTime:0.0120s ]
+SQL: UPDATE `record` SET `judge`='1',`out1`='500' WHERE ( id='24' ) [ RunTime:0.0013s ]
+
+[ 2016-03-26T21:44:50+08:00 ] 192.168.191.2 /kaili/index.php/Home/Index/jump2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001026s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001477s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001715s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000163s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000429s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021901s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022150s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000648s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000822s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001865s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002060s ]
+
+[ 2016-03-26T21:44:55+08:00 ] 192.168.191.2 /kaili/index.php/Home/Index/select
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000999s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001484s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001700s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0139s ]
+SQL: SELECT * FROM `user` WHERE ( id='8' ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `record` [ RunTime:0.0134s ]
+SQL: SELECT * FROM `record` WHERE ( conid='8' and out1='' ) LIMIT 1   [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000181s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000393s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020942s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021223s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000738s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000924s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002097s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002326s ]
+
+[ 2016-03-26T21:45:38+08:00 ] 192.168.191.2 /kaili/index.php/Home/Index/select
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000958s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001311s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001509s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0123s ]
+SQL: SELECT * FROM `user` WHERE ( id='8' ) LIMIT 1   [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `record` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `record` WHERE ( conid='8' and out1='' ) LIMIT 1   [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000227s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000523s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023672s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023979s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000761s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000967s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002626s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002859s ]
+
+[ 2016-03-26T21:45:42+08:00 ] 192.168.191.2 /kaili/index.php/Home/Index/waiter.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001060s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001345s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001573s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000180s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000399s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038148s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038404s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000650s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000829s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002083s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002301s ]
+
+[ 2016-03-26T21:45:50+08:00 ] 192.168.191.2 /kaili/index.php/Home/Index/bosssee
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000965s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001316s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001527s ]
+SQL: SHOW COLUMNS FROM `record` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `record` WHERE ( agreetime=1 and waisee=1 )  [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000223s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000448s ]
+NOTIC: [8] Undefined variable: page E:\phpstudy\WWW\kaili\App\Runtime\Cache\Home\a2b96e7d1b52a697b82cae36944036da.php 第 105 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029078s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029314s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000746s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000924s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002045s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002261s ]
+
+[ 2016-03-26T21:45:52+08:00 ] 192.168.191.2 /kaili/index.php/Home/Index/waiter
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001623s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001429s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001662s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000182s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000409s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019096s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019337s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000760s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000954s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001760s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001952s ]
+
+[ 2016-03-26T21:46:11+08:00 ] ::1 /kaili/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001145s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001691s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001885s ]
+SQL: SHOW COLUMNS FROM `record` [ RunTime:0.0146s ]
+SQL: DELETE FROM `record` WHERE ( time <='2015-03-27 00:00:00' ) [ RunTime:0.0007s ]
+SQL: SELECT * FROM `record` WHERE ( time>='2016-03-26 00:00:00' and time <='2016-03-26 23:59:59' )  [ RunTime:0.0012s ]
+NOTIC: [8] Undefined variable: sum E:\phpstudy\WWW\kaili\App\Home\Controller\PcController.class.php 第 18 行.
+NOTIC: [8] Undefined index: put E:\phpstudy\WWW\kaili\App\Home\Controller\PcController.class.php 第 18 行.
+NOTIC: [8] Undefined index: out E:\phpstudy\WWW\kaili\App\Home\Controller\PcController.class.php 第 19 行.
+NOTIC: [8] Undefined index: give E:\phpstudy\WWW\kaili\App\Home\Controller\PcController.class.php 第 20 行.
+NOTIC: [8] Undefined index: turn E:\phpstudy\WWW\kaili\App\Home\Controller\PcController.class.php 第 21 行.
+NOTIC: [8] Undefined index: coturn E:\phpstudy\WWW\kaili\App\Home\Controller\PcController.class.php 第 22 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000209s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000429s ]
+NOTIC: [8] Undefined index: out E:\phpstudy\WWW\kaili\App\Runtime\Cache\Home\1c916ccf4292ba2016e2b7201e8633ce.php 第 99 行.
+NOTIC: [8] Undefined index: out E:\phpstudy\WWW\kaili\App\Runtime\Cache\Home\1c916ccf4292ba2016e2b7201e8633ce.php 第 104 行.
+NOTIC: [8] Undefined index: out E:\phpstudy\WWW\kaili\App\Runtime\Cache\Home\1c916ccf4292ba2016e2b7201e8633ce.php 第 105 行.
+NOTIC: [8] Undefined index: out E:\phpstudy\WWW\kaili\App\Runtime\Cache\Home\1c916ccf4292ba2016e2b7201e8633ce.php 第 99 行.
+NOTIC: [8] Undefined index: out E:\phpstudy\WWW\kaili\App\Runtime\Cache\Home\1c916ccf4292ba2016e2b7201e8633ce.php 第 104 行.
+NOTIC: [8] Undefined index: out E:\phpstudy\WWW\kaili\App\Runtime\Cache\Home\1c916ccf4292ba2016e2b7201e8633ce.php 第 105 行.
+NOTIC: [8] Undefined index: out E:\phpstudy\WWW\kaili\App\Runtime\Cache\Home\1c916ccf4292ba2016e2b7201e8633ce.php 第 99 行.
+NOTIC: [8] Undefined index: out E:\phpstudy\WWW\kaili\App\Runtime\Cache\Home\1c916ccf4292ba2016e2b7201e8633ce.php 第 104 行.
+NOTIC: [8] Undefined index: out E:\phpstudy\WWW\kaili\App\Runtime\Cache\Home\1c916ccf4292ba2016e2b7201e8633ce.php 第 105 行.
+NOTIC: [8] Undefined index: out E:\phpstudy\WWW\kaili\App\Runtime\Cache\Home\1c916ccf4292ba2016e2b7201e8633ce.php 第 99 行.
+NOTIC: [8] Undefined index: out E:\phpstudy\WWW\kaili\App\Runtime\Cache\Home\1c916ccf4292ba2016e2b7201e8633ce.php 第 104 行.
+NOTIC: [8] Undefined index: out E:\phpstudy\WWW\kaili\App\Runtime\Cache\Home\1c916ccf4292ba2016e2b7201e8633ce.php 第 105 行.
+NOTIC: [8] Undefined index: out E:\phpstudy\WWW\kaili\App\Runtime\Cache\Home\1c916ccf4292ba2016e2b7201e8633ce.php 第 99 行.
+NOTIC: [8] Undefined index: out E:\phpstudy\WWW\kaili\App\Runtime\Cache\Home\1c916ccf4292ba2016e2b7201e8633ce.php 第 104 行.
+NOTIC: [8] Undefined index: out E:\phpstudy\WWW\kaili\App\Runtime\Cache\Home\1c916ccf4292ba2016e2b7201e8633ce.php 第 105 行.
+NOTIC: [8] Undefined index: out E:\phpstudy\WWW\kaili\App\Runtime\Cache\Home\1c916ccf4292ba2016e2b7201e8633ce.php 第 99 行.
+NOTIC: [8] Undefined index: out E:\phpstudy\WWW\kaili\App\Runtime\Cache\Home\1c916ccf4292ba2016e2b7201e8633ce.php 第 104 行.
+NOTIC: [8] Undefined index: out E:\phpstudy\WWW\kaili\App\Runtime\Cache\Home\1c916ccf4292ba2016e2b7201e8633ce.php 第 105 行.
+NOTIC: [8] Undefined index: out E:\phpstudy\WWW\kaili\App\Runtime\Cache\Home\1c916ccf4292ba2016e2b7201e8633ce.php 第 99 行.
+NOTIC: [8] Undefined index: out E:\phpstudy\WWW\kaili\App\Runtime\Cache\Home\1c916ccf4292ba2016e2b7201e8633ce.php 第 104 行.
+NOTIC: [8] Undefined index: out E:\phpstudy\WWW\kaili\App\Runtime\Cache\Home\1c916ccf4292ba2016e2b7201e8633ce.php 第 105 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048542s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048792s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001206s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001388s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002058s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002284s ]
+
+[ 2016-03-26T21:51:44+08:00 ] ::1 /kaili/index.php/Home/Index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001572s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003131s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003388s ]
+SQL: SHOW COLUMNS FROM `record` [ RunTime:0.0131s ]
+SQL: SELECT * FROM `record` WHERE ( time>='2016-03-17 00:00:00' and time <='2016-03-17 23:59:59' )  [ RunTime:0.0015s ]
+NOTIC: [8] Undefined variable: sum E:\phpstudy\WWW\kaili\App\Home\Controller\PcController.class.php 第 33 行.
+NOTIC: [8] Undefined index: put E:\phpstudy\WWW\kaili\App\Home\Controller\PcController.class.php 第 33 行.
+NOTIC: [8] Undefined index: out E:\phpstudy\WWW\kaili\App\Home\Controller\PcController.class.php 第 34 行.
+NOTIC: [8] Undefined index: give E:\phpstudy\WWW\kaili\App\Home\Controller\PcController.class.php 第 35 行.
+NOTIC: [8] Undefined index: turn E:\phpstudy\WWW\kaili\App\Home\Controller\PcController.class.php 第 36 行.
+NOTIC: [8] Undefined index: coturn E:\phpstudy\WWW\kaili\App\Home\Controller\PcController.class.php 第 37 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000220s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000448s ]
+NOTIC: [8] Undefined variable: time E:\phpstudy\WWW\kaili\App\Runtime\Cache\Home\1c916ccf4292ba2016e2b7201e8633ce.php 第 65 行.
+NOTIC: [8] Undefined index: out E:\phpstudy\WWW\kaili\App\Runtime\Cache\Home\1c916ccf4292ba2016e2b7201e8633ce.php 第 99 行.
+NOTIC: [8] Undefined index: out E:\phpstudy\WWW\kaili\App\Runtime\Cache\Home\1c916ccf4292ba2016e2b7201e8633ce.php 第 104 行.
+NOTIC: [8] Undefined index: out E:\phpstudy\WWW\kaili\App\Runtime\Cache\Home\1c916ccf4292ba2016e2b7201e8633ce.php 第 105 行.
+NOTIC: [8] Undefined index: out E:\phpstudy\WWW\kaili\App\Runtime\Cache\Home\1c916ccf4292ba2016e2b7201e8633ce.php 第 99 行.
+NOTIC: [8] Undefined index: out E:\phpstudy\WWW\kaili\App\Runtime\Cache\Home\1c916ccf4292ba2016e2b7201e8633ce.php 第 104 行.
+NOTIC: [8] Undefined index: out E:\phpstudy\WWW\kaili\App\Runtime\Cache\Home\1c916ccf4292ba2016e2b7201e8633ce.php 第 105 行.
+NOTIC: [8] Undefined index: out E:\phpstudy\WWW\kaili\App\Runtime\Cache\Home\1c916ccf4292ba2016e2b7201e8633ce.php 第 99 行.
+NOTIC: [8] Undefined index: out E:\phpstudy\WWW\kaili\App\Runtime\Cache\Home\1c916ccf4292ba2016e2b7201e8633ce.php 第 104 行.
+NOTIC: [8] Undefined index: out E:\phpstudy\WWW\kaili\App\Runtime\Cache\Home\1c916ccf4292ba2016e2b7201e8633ce.php 第 105 行.
+NOTIC: [8] Undefined index: out E:\phpstudy\WWW\kaili\App\Runtime\Cache\Home\1c916ccf4292ba2016e2b7201e8633ce.php 第 99 行.
+NOTIC: [8] Undefined index: out E:\phpstudy\WWW\kaili\App\Runtime\Cache\Home\1c916ccf4292ba2016e2b7201e8633ce.php 第 104 行.
+NOTIC: [8] Undefined index: out E:\phpstudy\WWW\kaili\App\Runtime\Cache\Home\1c916ccf4292ba2016e2b7201e8633ce.php 第 105 行.
+NOTIC: [8] Undefined index: out E:\phpstudy\WWW\kaili\App\Runtime\Cache\Home\1c916ccf4292ba2016e2b7201e8633ce.php 第 99 行.
+NOTIC: [8] Undefined index: out E:\phpstudy\WWW\kaili\App\Runtime\Cache\Home\1c916ccf4292ba2016e2b7201e8633ce.php 第 104 行.
+NOTIC: [8] Undefined index: out E:\phpstudy\WWW\kaili\App\Runtime\Cache\Home\1c916ccf4292ba2016e2b7201e8633ce.php 第 105 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032439s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032685s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001151s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001336s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002521s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002749s ]
+
+[ 2016-03-26T21:52:48+08:00 ] 192.168.191.2 /kaili/index.php/Home/Index/reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001529s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002061s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002315s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000181s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000423s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.066628s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.066881s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000939s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001113s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001875s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002051s ]
+
+[ 2016-03-26T21:52:50+08:00 ] 192.168.191.2 /kaili/index.php/Home/Index/waiter
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000932s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001279s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001475s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000182s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000413s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020653s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020919s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000714s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000894s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001821s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002059s ]
+
+[ 2016-03-26T22:14:42+08:00 ] ::1 /kaili/index.php/Home/Index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000089s ]
+INFO: [ app_init ] --END-- [ RunTime:0.020867s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002341s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002594s ]
+SQL: SHOW COLUMNS FROM `record` [ RunTime:0.0158s ]
+SQL: SELECT * FROM `record` WHERE ( time>='2016-03-17 00:00:00' and time <='2016-03-17 23:59:59' )  [ RunTime:0.0017s ]
+NOTIC: [8] Undefined variable: sum E:\phpstudy\WWW\kaili\App\Home\Controller\PcController.class.php 第 33 行.
+NOTIC: [8] Undefined index: put E:\phpstudy\WWW\kaili\App\Home\Controller\PcController.class.php 第 33 行.
+NOTIC: [8] Undefined index: out E:\phpstudy\WWW\kaili\App\Home\Controller\PcController.class.php 第 34 行.
+NOTIC: [8] Undefined index: give E:\phpstudy\WWW\kaili\App\Home\Controller\PcController.class.php 第 35 行.
+NOTIC: [8] Undefined index: turn E:\phpstudy\WWW\kaili\App\Home\Controller\PcController.class.php 第 36 行.
+NOTIC: [8] Undefined index: coturn E:\phpstudy\WWW\kaili\App\Home\Controller\PcController.class.php 第 37 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000239s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000510s ]
+NOTIC: [8] Undefined variable: time E:\phpstudy\WWW\kaili\App\Runtime\Cache\Home\1c916ccf4292ba2016e2b7201e8633ce.php 第 65 行.
+NOTIC: [8] Undefined index: out E:\phpstudy\WWW\kaili\App\Runtime\Cache\Home\1c916ccf4292ba2016e2b7201e8633ce.php 第 99 行.
+NOTIC: [8] Undefined index: out E:\phpstudy\WWW\kaili\App\Runtime\Cache\Home\1c916ccf4292ba2016e2b7201e8633ce.php 第 104 行.
+NOTIC: [8] Undefined index: out E:\phpstudy\WWW\kaili\App\Runtime\Cache\Home\1c916ccf4292ba2016e2b7201e8633ce.php 第 105 行.
+NOTIC: [8] Undefined index: out E:\phpstudy\WWW\kaili\App\Runtime\Cache\Home\1c916ccf4292ba2016e2b7201e8633ce.php 第 99 行.
+NOTIC: [8] Undefined index: out E:\phpstudy\WWW\kaili\App\Runtime\Cache\Home\1c916ccf4292ba2016e2b7201e8633ce.php 第 104 行.
+NOTIC: [8] Undefined index: out E:\phpstudy\WWW\kaili\App\Runtime\Cache\Home\1c916ccf4292ba2016e2b7201e8633ce.php 第 105 行.
+NOTIC: [8] Undefined index: out E:\phpstudy\WWW\kaili\App\Runtime\Cache\Home\1c916ccf4292ba2016e2b7201e8633ce.php 第 99 行.
+NOTIC: [8] Undefined index: out E:\phpstudy\WWW\kaili\App\Runtime\Cache\Home\1c916ccf4292ba2016e2b7201e8633ce.php 第 104 行.
+NOTIC: [8] Undefined index: out E:\phpstudy\WWW\kaili\App\Runtime\Cache\Home\1c916ccf4292ba2016e2b7201e8633ce.php 第 105 行.
+NOTIC: [8] Undefined index: out E:\phpstudy\WWW\kaili\App\Runtime\Cache\Home\1c916ccf4292ba2016e2b7201e8633ce.php 第 99 行.
+NOTIC: [8] Undefined index: out E:\phpstudy\WWW\kaili\App\Runtime\Cache\Home\1c916ccf4292ba2016e2b7201e8633ce.php 第 104 行.
+NOTIC: [8] Undefined index: out E:\phpstudy\WWW\kaili\App\Runtime\Cache\Home\1c916ccf4292ba2016e2b7201e8633ce.php 第 105 行.
+NOTIC: [8] Undefined index: out E:\phpstudy\WWW\kaili\App\Runtime\Cache\Home\1c916ccf4292ba2016e2b7201e8633ce.php 第 99 行.
+NOTIC: [8] Undefined index: out E:\phpstudy\WWW\kaili\App\Runtime\Cache\Home\1c916ccf4292ba2016e2b7201e8633ce.php 第 104 行.
+NOTIC: [8] Undefined index: out E:\phpstudy\WWW\kaili\App\Runtime\Cache\Home\1c916ccf4292ba2016e2b7201e8633ce.php 第 105 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.116869s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.117105s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.015331s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015566s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.012471s ]
+INFO: [ app_end ] --END-- [ RunTime:0.012697s ]
+
+[ 2016-03-26T22:14:53+08:00 ] ::1 /kaili/index.php/Home/Index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001128s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003068s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003722s ]
+SQL: SHOW COLUMNS FROM `record` [ RunTime:0.0127s ]
+SQL: SELECT * FROM `record` WHERE ( time>='2016-03-26 00:00:00' and time <='2016-03-26 23:59:59' )  [ RunTime:0.0024s ]
+NOTIC: [8] Undefined variable: sum E:\phpstudy\WWW\kaili\App\Home\Controller\PcController.class.php 第 33 行.
+NOTIC: [8] Undefined index: put E:\phpstudy\WWW\kaili\App\Home\Controller\PcController.class.php 第 33 行.
+NOTIC: [8] Undefined index: out E:\phpstudy\WWW\kaili\App\Home\Controller\PcController.class.php 第 34 行.
+NOTIC: [8] Undefined index: give E:\phpstudy\WWW\kaili\App\Home\Controller\PcController.class.php 第 35 行.
+NOTIC: [8] Undefined index: turn E:\phpstudy\WWW\kaili\App\Home\Controller\PcController.class.php 第 36 行.
+NOTIC: [8] Undefined index: coturn E:\phpstudy\WWW\kaili\App\Home\Controller\PcController.class.php 第 37 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000222s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000457s ]
+NOTIC: [8] Undefined variable: time E:\phpstudy\WWW\kaili\App\Runtime\Cache\Home\1c916ccf4292ba2016e2b7201e8633ce.php 第 65 行.
+NOTIC: [8] Undefined index: out E:\phpstudy\WWW\kaili\App\Runtime\Cache\Home\1c916ccf4292ba2016e2b7201e8633ce.php 第 99 行.
+NOTIC: [8] Undefined index: out E:\phpstudy\WWW\kaili\App\Runtime\Cache\Home\1c916ccf4292ba2016e2b7201e8633ce.php 第 104 行.
+NOTIC: [8] Undefined index: out E:\phpstudy\WWW\kaili\App\Runtime\Cache\Home\1c916ccf4292ba2016e2b7201e8633ce.php 第 105 行.
+NOTIC: [8] Undefined index: out E:\phpstudy\WWW\kaili\App\Runtime\Cache\Home\1c916ccf4292ba2016e2b7201e8633ce.php 第 99 行.
+NOTIC: [8] Undefined index: out E:\phpstudy\WWW\kaili\App\Runtime\Cache\Home\1c916ccf4292ba2016e2b7201e8633ce.php 第 104 行.
+NOTIC: [8] Undefined index: out E:\phpstudy\WWW\kaili\App\Runtime\Cache\Home\1c916ccf4292ba2016e2b7201e8633ce.php 第 105 行.
+NOTIC: [8] Undefined index: out E:\phpstudy\WWW\kaili\App\Runtime\Cache\Home\1c916ccf4292ba2016e2b7201e8633ce.php 第 99 行.
+NOTIC: [8] Undefined index: out E:\phpstudy\WWW\kaili\App\Runtime\Cache\Home\1c916ccf4292ba2016e2b7201e8633ce.php 第 104 行.
+NOTIC: [8] Undefined index: out E:\phpstudy\WWW\kaili\App\Runtime\Cache\Home\1c916ccf4292ba2016e2b7201e8633ce.php 第 105 行.
+NOTIC: [8] Undefined index: out E:\phpstudy\WWW\kaili\App\Runtime\Cache\Home\1c916ccf4292ba2016e2b7201e8633ce.php 第 99 行.
+NOTIC: [8] Undefined index: out E:\phpstudy\WWW\kaili\App\Runtime\Cache\Home\1c916ccf4292ba2016e2b7201e8633ce.php 第 104 行.
+NOTIC: [8] Undefined index: out E:\phpstudy\WWW\kaili\App\Runtime\Cache\Home\1c916ccf4292ba2016e2b7201e8633ce.php 第 105 行.
+NOTIC: [8] Undefined index: out E:\phpstudy\WWW\kaili\App\Runtime\Cache\Home\1c916ccf4292ba2016e2b7201e8633ce.php 第 99 行.
+NOTIC: [8] Undefined index: out E:\phpstudy\WWW\kaili\App\Runtime\Cache\Home\1c916ccf4292ba2016e2b7201e8633ce.php 第 104 行.
+NOTIC: [8] Undefined index: out E:\phpstudy\WWW\kaili\App\Runtime\Cache\Home\1c916ccf4292ba2016e2b7201e8633ce.php 第 105 行.
+NOTIC: [8] Undefined index: out E:\phpstudy\WWW\kaili\App\Runtime\Cache\Home\1c916ccf4292ba2016e2b7201e8633ce.php 第 99 行.
+NOTIC: [8] Undefined index: out E:\phpstudy\WWW\kaili\App\Runtime\Cache\Home\1c916ccf4292ba2016e2b7201e8633ce.php 第 104 行.
+NOTIC: [8] Undefined index: out E:\phpstudy\WWW\kaili\App\Runtime\Cache\Home\1c916ccf4292ba2016e2b7201e8633ce.php 第 105 行.
+NOTIC: [8] Undefined index: out E:\phpstudy\WWW\kaili\App\Runtime\Cache\Home\1c916ccf4292ba2016e2b7201e8633ce.php 第 99 行.
+NOTIC: [8] Undefined index: out E:\phpstudy\WWW\kaili\App\Runtime\Cache\Home\1c916ccf4292ba2016e2b7201e8633ce.php 第 104 行.
+NOTIC: [8] Undefined index: out E:\phpstudy\WWW\kaili\App\Runtime\Cache\Home\1c916ccf4292ba2016e2b7201e8633ce.php 第 105 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036616s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036859s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001320s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001529s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002100s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002316s ]
+
+[ 2016-03-26T22:16:17+08:00 ] ::1 /kaili/index.php/Home/Index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001289s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001504s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001744s ]
+SQL: SHOW COLUMNS FROM `record` [ RunTime:0.0298s ]
+SQL: SELECT * FROM `record` WHERE ( time>='2016-03-26 00:00:00' and time <='2016-03-26 23:59:59' )  [ RunTime:0.0015s ]
+NOTIC: [8] Undefined variable: sum E:\phpstudy\WWW\kaili\App\Home\Controller\PcController.class.php 第 33 行.
+NOTIC: [8] Undefined index: put E:\phpstudy\WWW\kaili\App\Home\Controller\PcController.class.php 第 33 行.
+NOTIC: [8] Undefined index: out E:\phpstudy\WWW\kaili\App\Home\Controller\PcController.class.php 第 34 行.
+NOTIC: [8] Undefined index: give E:\phpstudy\WWW\kaili\App\Home\Controller\PcController.class.php 第 35 行.
+NOTIC: [8] Undefined index: turn E:\phpstudy\WWW\kaili\App\Home\Controller\PcController.class.php 第 36 行.
+NOTIC: [8] Undefined index: coturn E:\phpstudy\WWW\kaili\App\Home\Controller\PcController.class.php 第 37 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000221s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000459s ]
+NOTIC: [8] Undefined variable: time E:\phpstudy\WWW\kaili\App\Runtime\Cache\Home\1c916ccf4292ba2016e2b7201e8633ce.php 第 65 行.
+NOTIC: [8] Undefined index: out E:\phpstudy\WWW\kaili\App\Runtime\Cache\Home\1c916ccf4292ba2016e2b7201e8633ce.php 第 99 行.
+NOTIC: [8] Undefined index: out E:\phpstudy\WWW\kaili\App\Runtime\Cache\Home\1c916ccf4292ba2016e2b7201e8633ce.php 第 104 行.
+NOTIC: [8] Undefined index: out E:\phpstudy\WWW\kaili\App\Runtime\Cache\Home\1c916ccf4292ba2016e2b7201e8633ce.php 第 105 行.
+NOTIC: [8] Undefined index: out E:\phpstudy\WWW\kaili\App\Runtime\Cache\Home\1c916ccf4292ba2016e2b7201e8633ce.php 第 99 行.
+NOTIC: [8] Undefined index: out E:\phpstudy\WWW\kaili\App\Runtime\Cache\Home\1c916ccf4292ba2016e2b7201e8633ce.php 第 104 行.
+NOTIC: [8] Undefined index: out E:\phpstudy\WWW\kaili\App\Runtime\Cache\Home\1c916ccf4292ba2016e2b7201e8633ce.php 第 105 行.
+NOTIC: [8] Undefined index: out E:\phpstudy\WWW\kaili\App\Runtime\Cache\Home\1c916ccf4292ba2016e2b7201e8633ce.php 第 99 行.
+NOTIC: [8] Undefined index: out E:\phpstudy\WWW\kaili\App\Runtime\Cache\Home\1c916ccf4292ba2016e2b7201e8633ce.php 第 104 行.
+NOTIC: [8] Undefined index: out E:\phpstudy\WWW\kaili\App\Runtime\Cache\Home\1c916ccf4292ba2016e2b7201e8633ce.php 第 105 行.
+NOTIC: [8] Undefined index: out E:\phpstudy\WWW\kaili\App\Runtime\Cache\Home\1c916ccf4292ba2016e2b7201e8633ce.php 第 99 行.
+NOTIC: [8] Undefined index: out E:\phpstudy\WWW\kaili\App\Runtime\Cache\Home\1c916ccf4292ba2016e2b7201e8633ce.php 第 104 行.
+NOTIC: [8] Undefined index: out E:\phpstudy\WWW\kaili\App\Runtime\Cache\Home\1c916ccf4292ba2016e2b7201e8633ce.php 第 105 行.
+NOTIC: [8] Undefined index: out E:\phpstudy\WWW\kaili\App\Runtime\Cache\Home\1c916ccf4292ba2016e2b7201e8633ce.php 第 99 行.
+NOTIC: [8] Undefined index: out E:\phpstudy\WWW\kaili\App\Runtime\Cache\Home\1c916ccf4292ba2016e2b7201e8633ce.php 第 104 行.
+NOTIC: [8] Undefined index: out E:\phpstudy\WWW\kaili\App\Runtime\Cache\Home\1c916ccf4292ba2016e2b7201e8633ce.php 第 105 行.
+NOTIC: [8] Undefined index: out E:\phpstudy\WWW\kaili\App\Runtime\Cache\Home\1c916ccf4292ba2016e2b7201e8633ce.php 第 99 行.
+NOTIC: [8] Undefined index: out E:\phpstudy\WWW\kaili\App\Runtime\Cache\Home\1c916ccf4292ba2016e2b7201e8633ce.php 第 104 行.
+NOTIC: [8] Undefined index: out E:\phpstudy\WWW\kaili\App\Runtime\Cache\Home\1c916ccf4292ba2016e2b7201e8633ce.php 第 105 行.
+NOTIC: [8] Undefined index: out E:\phpstudy\WWW\kaili\App\Runtime\Cache\Home\1c916ccf4292ba2016e2b7201e8633ce.php 第 99 行.
+NOTIC: [8] Undefined index: out E:\phpstudy\WWW\kaili\App\Runtime\Cache\Home\1c916ccf4292ba2016e2b7201e8633ce.php 第 104 行.
+NOTIC: [8] Undefined index: out E:\phpstudy\WWW\kaili\App\Runtime\Cache\Home\1c916ccf4292ba2016e2b7201e8633ce.php 第 105 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029866s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030088s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002389s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002623s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002117s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002335s ]
+
+[ 2016-03-26T22:16:45+08:00 ] ::1 /kaili/index.php/Home/Index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001110s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003528s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003784s ]
+SQL: SHOW COLUMNS FROM `record` [ RunTime:0.0135s ]
+SQL: SELECT * FROM `record` WHERE ( time>='2016-03-26 00:00:00' and time <='2016-03-26 23:59:59' )  [ RunTime:0.0014s ]
+NOTIC: [8] Undefined variable: sum E:\phpstudy\WWW\kaili\App\Home\Controller\PcController.class.php 第 33 行.
+NOTIC: [8] Undefined index: put E:\phpstudy\WWW\kaili\App\Home\Controller\PcController.class.php 第 33 行.
+NOTIC: [8] Undefined index: out E:\phpstudy\WWW\kaili\App\Home\Controller\PcController.class.php 第 34 行.
+NOTIC: [8] Undefined index: give E:\phpstudy\WWW\kaili\App\Home\Controller\PcController.class.php 第 35 行.
+NOTIC: [8] Undefined index: turn E:\phpstudy\WWW\kaili\App\Home\Controller\PcController.class.php 第 36 行.
+NOTIC: [8] Undefined index: coturn E:\phpstudy\WWW\kaili\App\Home\Controller\PcController.class.php 第 37 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000226s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000464s ]
+NOTIC: [8] Undefined variable: time E:\phpstudy\WWW\kaili\App\Runtime\Cache\Home\1c916ccf4292ba2016e2b7201e8633ce.php 第 65 行.
+NOTIC: [8] Undefined index: out E:\phpstudy\WWW\kaili\App\Runtime\Cache\Home\1c916ccf4292ba2016e2b7201e8633ce.php 第 99 行.
+NOTIC: [8] Undefined index: out E:\phpstudy\WWW\kaili\App\Runtime\Cache\Home\1c916ccf4292ba2016e2b7201e8633ce.php 第 104 行.
+NOTIC: [8] Undefined index: out E:\phpstudy\WWW\kaili\App\Runtime\Cache\Home\1c916ccf4292ba2016e2b7201e8633ce.php 第 105 行.
+NOTIC: [8] Undefined index: out E:\phpstudy\WWW\kaili\App\Runtime\Cache\Home\1c916ccf4292ba2016e2b7201e8633ce.php 第 99 行.
+NOTIC: [8] Undefined index: out E:\phpstudy\WWW\kaili\App\Runtime\Cache\Home\1c916ccf4292ba2016e2b7201e8633ce.php 第 104 行.
+NOTIC: [8] Undefined index: out E:\phpstudy\WWW\kaili\App\Runtime\Cache\Home\1c916ccf4292ba2016e2b7201e8633ce.php 第 105 行.
+NOTIC: [8] Undefined index: out E:\phpstudy\WWW\kaili\App\Runtime\Cache\Home\1c916ccf4292ba2016e2b7201e8633ce.php 第 99 行.
+NOTIC: [8] Undefined index: out E:\phpstudy\WWW\kaili\App\Runtime\Cache\Home\1c916ccf4292ba2016e2b7201e8633ce.php 第 104 行.
+NOTIC: [8] Undefined index: out E:\phpstudy\WWW\kaili\App\Runtime\Cache\Home\1c916ccf4292ba2016e2b7201e8633ce.php 第 105 行.
+NOTIC: [8] Undefined index: out E:\phpstudy\WWW\kaili\App\Runtime\Cache\Home\1c916ccf4292ba2016e2b7201e8633ce.php 第 99 行.
+NOTIC: [8] Undefined index: out E:\phpstudy\WWW\kaili\App\Runtime\Cache\Home\1c916ccf4292ba2016e2b7201e8633ce.php 第 104 行.
+NOTIC: [8] Undefined index: out E:\phpstudy\WWW\kaili\App\Runtime\Cache\Home\1c916ccf4292ba2016e2b7201e8633ce.php 第 105 行.
+NOTIC: [8] Undefined index: out E:\phpstudy\WWW\kaili\App\Runtime\Cache\Home\1c916ccf4292ba2016e2b7201e8633ce.php 第 99 行.
+NOTIC: [8] Undefined index: out E:\phpstudy\WWW\kaili\App\Runtime\Cache\Home\1c916ccf4292ba2016e2b7201e8633ce.php 第 104 行.
+NOTIC: [8] Undefined index: out E:\phpstudy\WWW\kaili\App\Runtime\Cache\Home\1c916ccf4292ba2016e2b7201e8633ce.php 第 105 行.
+NOTIC: [8] Undefined index: out E:\phpstudy\WWW\kaili\App\Runtime\Cache\Home\1c916ccf4292ba2016e2b7201e8633ce.php 第 99 行.
+NOTIC: [8] Undefined index: out E:\phpstudy\WWW\kaili\App\Runtime\Cache\Home\1c916ccf4292ba2016e2b7201e8633ce.php 第 104 行.
+NOTIC: [8] Undefined index: out E:\phpstudy\WWW\kaili\App\Runtime\Cache\Home\1c916ccf4292ba2016e2b7201e8633ce.php 第 105 行.
+NOTIC: [8] Undefined index: out E:\phpstudy\WWW\kaili\App\Runtime\Cache\Home\1c916ccf4292ba2016e2b7201e8633ce.php 第 99 行.
+NOTIC: [8] Undefined index: out E:\phpstudy\WWW\kaili\App\Runtime\Cache\Home\1c916ccf4292ba2016e2b7201e8633ce.php 第 104 行.
+NOTIC: [8] Undefined index: out E:\phpstudy\WWW\kaili\App\Runtime\Cache\Home\1c916ccf4292ba2016e2b7201e8633ce.php 第 105 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034537s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034774s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001321s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001538s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002054s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002262s ]
+
+[ 2016-03-26T22:17:28+08:00 ] ::1 /kaili/index.php/Home/Index
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'out!='' )' at line 1
+ [ SQL语句 ] : SELECT * FROM `record` WHERE ( time>='2016-03-26 00:00:00' and time <='2016-03-26 23:59:59' and out!='' ) 
+
+[ 2016-03-26T22:23:13+08:00 ] ::1 /kaili/index.php/Home/Pc/month
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'out1!='' )' at line 1
+ [ SQL语句 ] : SELECT * FROM `record` WHERE ( time>='2016-03-01 00:00:00' and time <='2016-03-31 23:59:59'  out1!='' ) 
+
+[ 2016-03-26T22:23:40+08:00 ] ::1 /kaili/index.php/Home/Pc/month
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'out1!='' )' at line 1
+ [ SQL语句 ] : SELECT * FROM `record` WHERE ( time>='2016-03-01 00:00:00' and time <='2016-03-31 23:59:59' out1!='' ) 
+
+[ 2016-03-26T22:24:33+08:00 ] ::1 /kaili/index.php/Home/Pc/month
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'out1!='' )' at line 1
+ [ SQL语句 ] : SELECT * FROM `record` WHERE ( time>='2016-03-01 00:00:00' and time <='2016-03-31 23:59:59' out1!='' ) 
+
+[ 2016-03-26T22:29:56+08:00 ] 192.168.191.2 /kaili/index.php/Home/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001558s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002636s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0127s ]
+SQL: SELECT * FROM `admin` WHERE ( login='fuwu1' ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-03-26T22:30:18+08:00 ] 192.168.191.2 /kaili/index.php/Home/Index/conreg
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001716s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002824s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0118s ]
+SQL: SELECT * FROM `user` WHERE ( userphone='123' ) LIMIT 1   [ RunTime:0.0009s ]
+SQL: INSERT INTO `user` (`userphone`,`name`) VALUES ('123','123') [ RunTime:0.0017s ]
+
+[ 2016-03-26T22:32:15+08:00 ] 192.168.191.2 /kaili/index.php/Home/Index/conlogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001986s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003233s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0115s ]
+SQL: SELECT * FROM `user` WHERE ( userphone='12345678' ) LIMIT 1   [ RunTime:0.0009s ]
+
+[ 2016-03-26T22:32:53+08:00 ] 192.168.191.2 /kaili/index.php/Home/Index/conaddto
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001265s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002226s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0130s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\phpstudy\WWW\kaili\App\Home\Controller\IndexController.class.php 第 226 行.
+SQL: SELECT * FROM `admin` LIMIT 1   [ RunTime:0.0011s ]
+
+[ 2016-03-26T22:32:55+08:00 ] 192.168.191.2 /kaili/index.php/Home/Index/conaddto
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001283s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002314s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0119s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\phpstudy\WWW\kaili\App\Home\Controller\IndexController.class.php 第 226 行.
+SQL: SELECT * FROM `admin` LIMIT 1   [ RunTime:0.0009s ]
+
+[ 2016-03-26T22:33:16+08:00 ] 192.168.191.2 /kaili/index.php/Home/Index/conaddto
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001451s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002629s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0595s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\phpstudy\WWW\kaili\App\Home\Controller\IndexController.class.php 第 226 行.
+SQL: SELECT * FROM `admin` LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `record` [ RunTime:0.0126s ]
+SQL: INSERT INTO `record` (`conid`,`conname`,`mac`,`conpos`,`put`,`type`,`account`,`out1`,`give`,`turn`,`coturn`,`waitid`,`wainame`,`time`,`judge`) VALUES ('9','站2','2','3','20000','网银','天天主管','','','','','1','服务员1','2016-03-26 22:33:16','1') [ RunTime:0.0012s ]
+
+[ 2016-03-26T22:33:54+08:00 ] 192.168.191.2 /kaili/index.php/Home/Index/conout
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001224s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002144s ]
+SQL: SHOW COLUMNS FROM `record` [ RunTime:0.0137s ]
+SQL: UPDATE `record` SET `judge`='2',`turn`='500' WHERE ( id='25' ) [ RunTime:0.0010s ]
+
+[ 2016-03-26T22:34:27+08:00 ] ::1 /kaili/index.php/Home/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001238s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002281s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0115s ]
+SQL: SELECT * FROM `admin` WHERE ( login='zhugaun1' ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-03-26T22:34:36+08:00 ] ::1 /kaili/index.php/Home/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001972s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003735s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0408s ]
+SQL: SELECT * FROM `admin` WHERE ( login='zhugaun1' ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-03-26T22:34:45+08:00 ] ::1 /kaili/index.php/Home/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003992s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005243s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0119s ]
+SQL: SELECT * FROM `admin` WHERE ( login='zhugaun1' ) LIMIT 1   [ RunTime:0.0008s ]
+
+[ 2016-03-26T22:35:22+08:00 ] ::1 /kaili/index.php/Home/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002068s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003089s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0124s ]
+SQL: SELECT * FROM `admin` WHERE ( login='zhugaun1' ) LIMIT 1   [ RunTime:0.0008s ]
+
+[ 2016-03-26T22:35:43+08:00 ] ::1 /kaili/index.php/Home/Pc/update
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001333s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002379s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0125s ]
+SQL: UPDATE `admin` SET `password`='e10adc3949ba59abbe56e057f20f883e' WHERE ( id='2' ) [ RunTime:0.0008s ]
+
+[ 2016-03-26T22:35:50+08:00 ] ::1 /kaili/index.php/Home/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002263s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003719s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0165s ]
+SQL: SELECT * FROM `admin` WHERE ( login='zhugaun1' ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-03-26T22:36:59+08:00 ] ::1 /kaili/index.php/Home/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002015s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003581s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0800s ]
+SQL: SELECT * FROM `admin` WHERE ( login='zhuguan1' ) LIMIT 1   [ RunTime:0.0008s ]
+
+[ 2016-03-26T22:38:32+08:00 ] 192.168.191.2 /kaili/index.php/Home/Index/conout
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001682s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002826s ]
+SQL: SHOW COLUMNS FROM `record` [ RunTime:0.0238s ]
+SQL: UPDATE `record` SET `judge`='1',`out1`='5000' WHERE ( id='25' ) [ RunTime:0.0010s ]
+
+[ 2016-03-26T23:16:30+08:00 ] ::1 /kaili/index.php/Home/Pc/month
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001307s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002761s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003078s ]
+SQL: SHOW COLUMNS FROM `record` [ RunTime:0.0127s ]
+SQL: SELECT * FROM `record` WHERE ( time>='2016-03-01 00:00:00' and time <='2016-03-31 23:59:59' and out1!='' )  [ RunTime:0.0018s ]
+NOTIC: [8] Undefined variable: sum E:\phpstudy\WWW\kaili\App\Home\Controller\PcController.class.php 第 54 行.
+NOTIC: [8] Undefined index: put E:\phpstudy\WWW\kaili\App\Home\Controller\PcController.class.php 第 54 行.
+NOTIC: [8] Undefined index: out E:\phpstudy\WWW\kaili\App\Home\Controller\PcController.class.php 第 55 行.
+NOTIC: [8] Undefined index: give E:\phpstudy\WWW\kaili\App\Home\Controller\PcController.class.php 第 56 行.
+NOTIC: [8] Undefined index: turn E:\phpstudy\WWW\kaili\App\Home\Controller\PcController.class.php 第 57 行.
+NOTIC: [8] Undefined index: coturn E:\phpstudy\WWW\kaili\App\Home\Controller\PcController.class.php 第 58 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000249s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000528s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048825s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049143s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001291s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001522s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002462s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002740s ]
+

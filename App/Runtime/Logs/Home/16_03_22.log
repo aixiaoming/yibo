@@ -1,0 +1,82 @@
+[ 2016-03-22T12:36:53+08:00 ] ::1 /kaili/index.php/Home/Pc/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001584s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.038006s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0576s ]
+SQL: SELECT * FROM `admin` WHERE ( login='admin' ) LIMIT 1   [ RunTime:0.0084s ]
+
+[ 2016-03-22T13:03:10+08:00 ] ::1 /kaili/index.php/Home/Pc/user
+ERR: 1054:Unknown column 'login' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `user` WHERE ( login='15238309818' ) LIMIT 1  
+
+[ 2016-03-22T13:04:04+08:00 ] ::1 /kaili/index.php/Home/Pc/user
+ERR: 1146:Table 'kaili.userphone' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `userphone`
+
+[ 2016-03-22T13:04:28+08:00 ] ::1 /kaili/index.php/Home/Pc/user
+ERR: 1054:Unknown column 'userphone' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `admin` WHERE ( userphone='15238309818' ) LIMIT 1  
+
+[ 2016-03-22T18:32:30+08:00 ] ::1 /kaili/index.php/Home/Pc/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001752s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002949s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.1041s ]
+SQL: SELECT * FROM `admin` WHERE ( login='admin' ) LIMIT 1   [ RunTime:0.0190s ]
+
+[ 2016-03-22T20:56:04+08:00 ] ::1 /kaili/index.php/Home/Pc/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001233s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002100s ]
+
+[ 2016-03-22T20:56:38+08:00 ] ::1 /kaili/index.php/Home/Pc/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002530s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0112s ]
+SQL: SELECT * FROM `admin` WHERE ( login='zhuguan2' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `admin` (`level`,`login`,`name`,`password`) VALUES ('1','zhuguan2','主管2','e10adc3949ba59abbe56e057f20f883e') [ RunTime:0.0014s ]
+
+[ 2016-03-22T20:58:59+08:00 ] ::1 /kaili/index.php/Home/Pc/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001257s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002289s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0116s ]
+SQL: SELECT * FROM `admin` WHERE ( login='zhuguan3' ) LIMIT 1   [ RunTime:0.0009s ]
+SQL: INSERT INTO `admin` (`level`,`login`,`name`,`password`) VALUES ('1','zhuguan3','zhuguan3','e10adc3949ba59abbe56e057f20f883e') [ RunTime:0.0010s ]
+
+[ 2016-03-22T21:11:55+08:00 ] ::1 /kaili/index.php/Home/Pc/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001233s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002119s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0126s ]
+SQL: SELECT * FROM `admin` WHERE ( login='1' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `admin` (`level`,`login`,`name`,`password`) VALUES ('1','1','1','c4ca4238a0b923820dcc509a6f75849b') [ RunTime:0.0010s ]
+
+[ 2016-03-22T21:15:51+08:00 ] ::1 /kaili/index.php/Home/Pc/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001390s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003026s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `admin` WHERE ( login='2' ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: INSERT INTO `admin` (`level`,`login`,`name`,`password`) VALUES ('1','2','2','c81e728d9d4c2f636f067f89cc14862c') [ RunTime:0.0006s ]
+
+[ 2016-03-22T21:16:19+08:00 ] ::1 /kaili/index.php/Home/Pc/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001657s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003144s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0163s ]
+SQL: SELECT * FROM `admin` WHERE ( login='3' ) LIMIT 1   [ RunTime:0.0011s ]
+SQL: INSERT INTO `admin` (`level`,`login`,`name`,`password`) VALUES ('1','3','3','eccbc87e4b5ce2fe28308fd9f2a7baf3') [ RunTime:0.0009s ]
+
+[ 2016-03-22T21:21:13+08:00 ] ::1 /kaili/index.php/Home/Pc/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001252s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002160s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0152s ]
+SQL: SELECT * FROM `admin` WHERE ( login='fuwu11' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `admin` (`level`,`login`,`name`,`password`) VALUES ('2','fuwu11','服务11','e10adc3949ba59abbe56e057f20f883e') [ RunTime:0.0009s ]
+
+[ 2016-03-22T21:27:48+08:00 ] ::1 /kaili/index.php/Home/Pc/update?id=admin
+ERR: 模板不存在:./App/Home/View/Pc/update.html
+

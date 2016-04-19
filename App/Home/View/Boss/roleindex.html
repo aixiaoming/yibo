@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>服务员列表</title>
+</head>
+<body>
+<include file="Public/head" />
+<include file="Public/header" />
+
+<div class="conselect">
+    <a href="__CONTROLLER__/index"><div class="a">审核申请{$count}</div></a>
+    <a href="__CONTROLLER__/record"><div class="a">查看记录</div></a>
+    <a href="__CONTROLLER__/roleindex"><div class="a"  id="active">权限设置</div></a>
+</div>
+
+    <volist name="waiter" id="vo">
+        <form method="post" action="__CONTROLLER__/role">
+            <input type="hidden" value="{$vo.id}" name="id">
+            <button type="submit" class="btn btn-info" id="waiterrole" style="width: 40%;float: left;border: none;">{$vo.name}<br></button>
+        </form>
+    </volist>
+</body>
+</html>

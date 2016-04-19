@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>主管意见</title>
+</head>
+<body>
+<include file="Public/head" />
+<include file="Public/header" />
+
+<div class="conselect">
+    <a href="__CONTROLLER__/waiter"><div class="a">老客户登录</div></a>
+    <a href="__CONTROLLER__/reg"><div class="a">新客户注册</div></a>
+    <a href="__CONTROLLER__/bosssee"><div class="a" id="active">主管意见</div></a>
+</div>
+
+<a href="__CONTROLLER__/seeout" class="btn btn-info" style="width: 80%;margin-left: 10%;margin-top: 20px;">全部不再显示</a>
+
+<volist name="see" id="vo">
+    <div class="list">
+        <div class="input-group">
+            <span class="input-group-addon" id="basic-addon1">客户姓名</span>
+            <input type="text" class="form-control" value="{$vo.conname}" aria-describedby="basic-addon1" disabled>
+        </div>
+        <div class="input-group">
+            <span class="input-group-addon" id="basic-addon1">机器编号</span>
+            <input type="text" class="form-control" value="{$vo.mac}" aria-describedby="basic-addon1" disabled>
+        </div>
+        <div class="input-group">
+            <span class="input-group-addon" id="basic-addon1">座位编号</span>
+            <input type="text" class="form-control" value="{$vo.conpos}" aria-describedby="basic-addon1" disabled>
+        </div>
+        <div class="input-group">
+            <span class="input-group-addon" id="basic-addon1">入　　分</span>
+            <input type="text" class="form-control" value="{$vo.put}" aria-describedby="basic-addon1" disabled>
+        </div>
+        <div class="input-group">
+            <span class="input-group-addon" id="basic-addon1">入分方式</span>
+            <input type="text" class="form-control" value="{$vo.type}" aria-describedby="basic-addon1" disabled>
+        </div>
+        <div class="input-group">
+            <span class="input-group-addon" id="basic-addon1">主管姓名</span>
+            <input type="text" class="form-control" value="{$vo.account}" aria-describedby="basic-addon1" disabled>
+        </div>
+        <div class="input-group">
+            <span class="input-group-addon" id="basic-addon1">出　　分</span>
+            <input type="text" class="form-control" value="{$vo.out1}" aria-describedby="basic-addon1" disabled>
+        </div>
+        <div class="input-group">
+            <span class="input-group-addon" id="basic-addon1">赠　　分</span>
+            <input type="text" class="form-control" value="{$vo.give}" aria-describedby="basic-addon1" disabled>
+        </div>
+        <div class="input-group">
+            <span class="input-group-addon" id="basic-addon1">优　　惠</span>
+            <input type="text" class="form-control" value="{$vo.turn}" aria-describedby="basic-addon1" disabled>
+        </div>
+        <div class="input-group">
+            <span class="input-group-addon" id="basic-addon1">扣 优 惠</span>
+            <input type="text" class="form-control" value="{$vo.coturn}" aria-describedby="basic-addon1" disabled>
+        </div>
+        <div class="input-group">
+            <span class="input-group-addon" id="basic-addon1">返　　现</span>
+            <input type="text" class="form-control" value="{$vo.out2}" aria-describedby="basic-addon1" disabled>
+        </div>
+        <div class="input-group">
+            <span class="input-group-addon" id="basic-addon1">服 务 员</span>
+            <input type="text" class="form-control" value="{$vo.wainame}" aria-describedby="basic-addon1" disabled>
+        </div>
+        <div class="input-group">
+            <span class="input-group-addon" id="basic-addon1">主管意见</span>
+            <php>
+                if($vo["agree"]==1){
+                    echo '<input type="text" class="form-control" style="color: #ff0000" value="同意" aria-describedby="basic-addon1" disabled>';
+                }elseif($vo["agree"]==2){
+                    echo '<input type="text" class="form-control" style="color: #ff0000" value="不同意" aria-describedby="basic-addon1" disabled>';
+                }
+            </php>
+        </div>
+        <div class="input-group" style="width: 100%;">
+            <span class="input-group-addon">
+                    <button class="btn btn-info" style="width: 90%;" type="submit">操作</button>
+            </span>
+
+            <form action="__CONTROLLER__/bosssee" method="post">
+                <input type="hidden" value="{$vo.id}" name="id">
+                <span class="input-group-addon">
+                    <button class="btn btn-success" style="width: 90%;" type="submit">不再显示</button>
+                </span>
+            </form>
+
+
+        </div>
+    </div>
+</volist>
+
+
+<div class="page">
+    {$page}
+</div>
+
+
+</body>
+</html>
+
+
+
+

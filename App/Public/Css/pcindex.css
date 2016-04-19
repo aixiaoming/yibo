@@ -1,0 +1,147 @@
+body {
+    margin: 0px;
+    font-family: "SimSun", "Helvetica Neue", Helvetica, Arial, sans-serif!important;
+    font-size: 12px!important;
+    line-height: 18px;
+    background-color: #fff!important;
+}
+
+ul {
+    padding: 0px;
+}
+
+.header {
+    background-color: #1B3160;
+    height: 30px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.header, .dl-main-nav {
+    background: url('/kaili/App/Public/Img/main-nav-bg.png') repeat-x 0 0 #204077;
+}
+
+.dl-log {
+    color: #C1D5EC;
+    float: right;
+    padding: 10px 16px 0 0!important;
+}
+
+.dl-main-nav .nav-list {
+    border-bottom: 1px solid #FFF;
+    overflow: hidden;
+    border-width: 0;
+    /*background-color: red;height: 40px;*/
+    /*margin-top: 0px;;*/
+}
+
+.dl-main-nav {
+    height: 40px;
+    background-position: center -30px!important;
+    overflow: hidden;
+    position: relative;
+}
+
+.nav-list .dl-selected .nav-item-inner {
+    -webkit-border-radius: 2px 2px 0 0;
+    -moz-border-radius: 2px 2px 0 0;
+    border-radius: 2px 2px 0 0;
+    border: 1px solid #FFF;
+    background-color: #E8E9EE;
+    color: #43478e;
+    font-weight: bold;
+    height: 41px;
+}
+
+.dl-selected .nav-home, .dl4-hide-list .nav-home {
+    background-position: 4px -424px!important;
+}
+
+.nav-item-inner, .dl4-hide-list .dl-hover {
+    background: url('/kaili/App/Public/Img/icon1.png') no-repeat 0 0 transparent;
+}
+
+.nav-item-inner {
+    width: 134px;
+    padding: 4px 0 0 31px!important;
+    height: 30px;
+    border: 1px solid transparent;
+    _border: none;
+}
+.ul {
+    width: 134px;
+    background-color: #e8e9ee;
+    margin: 0px;
+    overflow: hidden;
+    float: left!important;
+}
+.ul ul{
+    list-style: none;
+}
+.ul ul li{
+     width: 134px;
+     height: 25px;
+     padding-left: 24px;
+ }
+.ul ul li:hover{
+    width: 134px;
+    height: 25px;
+    padding-left: 24px;
+    background-color: #414da7;
+}
+.ul ul li a{
+    display: inline-block;
+    width: 130px;
+    color: #5c637b;
+    line-height: 25px;
+    text-decoration: none;
+}
+.ul ul li a:hover{
+    color: #fff;
+    line-height: 24px;
+    text-decoration: none;
+}
+#righti{
+    float: right;
+    overflow: auto;
+}
+#righti table{
+    margin-top: 30px!important;
+    width: 98%;
+    float: left;
+}
+#righti table thead {
+    background-color: #eaeaea;
+    color: #333333;
+    font-size: 13px;
+    font-weight: 700px;
+}
+#righti table tbody {
+    color: #333333;
+    font-size: 13px;
+}
+#righti table tbody th{
+    font-weight: 100!important;
+}
+#righti table tfoot th{
+    font-weight: 100!important;
+}
+.active{
+    background-color: #414da7;
+}
+form{
+    margin-top: 20px;
+}
+form button{
+    height: 38px;
+    margin-top: 0px!important;
+}
+#table tbody tr:hover{
+    background-color: #ccc;
+}
+#table tfoot tr:hover{
+    background-color: #ccc;
+}
+table{
+    border-radius: 8px;
+}

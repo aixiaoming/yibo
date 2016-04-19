@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>客户登录</title>
+</head>
+<body>
+<include file="Public/head" />
+<include file="Public/header" />
+
+
+<div class="conselect">
+    <a href="#"><div class="a" id="active">老客户登录</div></a>
+    <a href="__CONTROLLER__/reg"><div class="a">新客户注册</div></a>
+    <a href="__CONTROLLER__/bosssee"><div class="a">主管意见</div></a>
+</div>
+
+
+
+
+<form class="form-horizontal">
+    <input type="text" class="form-control" id="inputEmail3" placeholder="账号" name="userphone">
+    <a type="submit" class="btn btn-info" id="btn_login">客户登录</a>
+</form>
+
+<ol type=1 style="margin-top: 10px;">
+    <volist name="conuser" id="vo">
+        <li style="width: 50%;float: left;">
+            <form class="form-horizontal" method="post" action="__CONTROLLER__/conlogin2">
+                <input type="hidden" class="form-control"  name="userphone" value="{$vo.name}">
+                <button type="submit" class="btn btn-info" id="bt_login" style="width: 60%;" >{$vo.name}</button>
+            </form>
+        </li>
+    </volist>
+</ol>
+
+<!--style="width: 40%;float: left;margin-left: 5%;margin-right: 5%;margin-top: 10px;" class="btn btn-primary"-->
+</body>
+
+<script>
+    $(function(){
+        $('#btn_login').click(function(){login()});
+        $(document).keypress(function(e) {
+            if(e.which == 13) {
+                login();
+            }
+        });
+    });
+
+    function login() {
+
+        var u = $('#inputEmail3').val();
+        if (u == "") {
+            layer.msg('请输入客户账号', function () {
+            });
+            return false;
+        }
+        $.ajax({
+            url: '__CONTROLLER__/conlogin',
+            type: "post",
+            data:{
+                'userphone':u
+            },
+            dataType:'json',
+            error:function(){
+
+                layer.msg('网络连接失败，请刷新页面重试',function(){})
+
+            },
+            success:function(data){
+
+                if(data.error==0){
+
+                    location.href=data.url;
+
+                }else{
+                    layer.msg(data.msg)
+                }
+            }
+        });
+    }
+
+
+
+</script>
+</html>

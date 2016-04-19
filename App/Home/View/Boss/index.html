@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>艺博</title>
+</head>
+<body>
+<include file="Public/head" />
+<include file="Public/header" />
+
+<div class="conselect">
+    <a href="__CONTROLLER__/index"><div class="a" id="active">审核申请</div></a>
+    <a href="__CONTROLLER__/record"><div class="a">查看记录</div></a>
+    <a href="__CONTROLLER__/roleindex"><div class="a">权限设置</div></a>
+</div>
+
+
+<volist name="list" id="vo">
+    <div class="list">
+        <div class="input-group">
+            <span class="input-group-addon" id="basic-addon1">客户姓名</span>
+            <input type="text" class="form-control" value="{$vo.conname}" aria-describedby="basic-addon1" disabled>
+        </div>
+        <div class="input-group">
+            <span class="input-group-addon" id="basic-addon1">机器编号</span>
+            <input type="text" class="form-control" value="{$vo.mac}" aria-describedby="basic-addon1" disabled>
+        </div>
+        <div class="input-group">
+            <span class="input-group-addon" id="basic-addon1">座位编号</span>
+            <input type="text" class="form-control" value="{$vo.conpos}" aria-describedby="basic-addon1" disabled>
+        </div>
+        <div class="input-group">
+            <span class="input-group-addon" id="basic-addon1">入　　分</span>
+            <input type="text" class="form-control" value="{$vo.put}" aria-describedby="basic-addon1" disabled>
+        </div>
+        <div class="input-group">
+            <span class="input-group-addon" id="basic-addon1">入分方式</span>
+            <input type="text" class="form-control" value="{$vo.type}" aria-describedby="basic-addon1" disabled>
+        </div>
+        <div class="input-group">
+            <span class="input-group-addon" id="basic-addon1">主管姓名</span>
+            <input type="text" class="form-control" value="{$vo.account}" aria-describedby="basic-addon1" disabled>
+        </div>
+        <div class="input-group">
+            <span class="input-group-addon" id="basic-addon1">出　　分</span>
+            <input type="text" class="form-control" value="{$vo.out1}" aria-describedby="basic-addon1" disabled>
+        </div>
+        <div class="input-group">
+            <span class="input-group-addon" id="basic-addon1">赠　　分</span>
+            <input type="text" class="form-control" value="{$vo.give}" aria-describedby="basic-addon1" disabled>
+        </div>
+        <div class="input-group">
+            <span class="input-group-addon" id="basic-addon1">优　　惠</span>
+            <input type="text" class="form-control" value="{$vo.turn}" aria-describedby="basic-addon1" disabled>
+        </div>
+        <div class="input-group">
+            <span class="input-group-addon" id="basic-addon1">扣 优 惠</span>
+            <input type="text" class="form-control" value="{$vo.coturn}" aria-describedby="basic-addon1" disabled>
+        </div>
+        <div class="input-group">
+            <span class="input-group-addon" id="basic-addon1">返　　现</span>
+            <input type="text" class="form-control" value="{$vo.out2}" aria-describedby="basic-addon1" disabled>
+        </div>
+        <div class="input-group">
+            <span class="input-group-addon" id="basic-addon1">服 务 员</span>
+            <input type="text" class="form-control" value="{$vo.wainame}" aria-describedby="basic-addon1" disabled>
+        </div>
+        <div class="input-group" style="width: 100%;">
+            <span class="input-group-addon">
+                <form action="__CONTROLLER__/disagree" method="post">
+                    <input type="hidden" name="give" value="{$vo.give}">
+                    <input type="hidden" name="turn" value="{$vo.turn}">
+                    <input type="hidden" name="coturn" value="{$vo.coturn}">
+                    <input type="hidden" name="out2" value="{$vo.out2}">
+                    <input type="hidden" value="{$vo.id}" name="id">
+                    <button class="btn btn-danger" style="width: 90%;" type="submit">不 同 意</button>
+                </form>
+            </span>
+            <span class="input-group-addon">
+                <form action="__CONTROLLER__/agree" method="post">
+                    <input type="hidden" value="{$vo.id}" name="id">
+                    <button class="btn btn-success" style="width: 90%;" type="submit">同　意</button>
+                </form>
+            </span>
+        </div>
+    </div>
+</volist>
+
+
+<!--__CONTROLLER__/agree-->
+
+<div class="page">
+    {$page}
+</div>
+
+
+</body>
+</html>
